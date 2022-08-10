@@ -6,12 +6,13 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import cosmin.dev.travelapp.ui.screens.MainScreen
+import cosmin.dev.travelapp.ui.screens.SplashScreen
 
 @Composable
 fun Navigation(navController: NavHostController) {
     NavHost(navController = navController, startDestination = "splash_screen"){
         composable(Screen.SplashScreen.route) {
-            /*SplashScreen(navController = navController)*/
+            SplashScreen(navController = navController)
         }
 
         composable(Screen.MainScreen.route) {
