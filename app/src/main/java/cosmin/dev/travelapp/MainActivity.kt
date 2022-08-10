@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             TravelAppTheme {
-                val navController = rememberNavController()
+                //val navController = rememberNavController()
 
 
             }
