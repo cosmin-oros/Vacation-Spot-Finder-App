@@ -2,10 +2,9 @@ package cosmin.dev.travelapp.ui.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Button
 import androidx.compose.material.ButtonDefaults
@@ -18,6 +17,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import cosmin.dev.travelapp.navigation.Screen
+import cosmin.dev.travelapp.ui.screens.continents_package.ContinentListItem
 
 @Composable
 fun CountriesScreen(navController: NavController, name: String?) {
@@ -59,6 +59,17 @@ fun CountriesScreen(navController: NavController, name: String?) {
             Text(text = "Go back", fontSize = 8.sp)
         }
 
-
     }
+
+    //list all the countries
+    /*LazyColumn(
+        contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp)
+    ){
+        items(
+            items = countriesList,
+            itemContent = {
+                CountriesListItem(continentsData = it, navController)
+            }
+        )
+    }*/
 }
