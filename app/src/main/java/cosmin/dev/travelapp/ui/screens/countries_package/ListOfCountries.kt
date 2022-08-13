@@ -9,6 +9,7 @@ object ListOfCountries {
                 imgRes =,
                 countryName = "",
                 info = "",
+                continent = "",
                 safety = 0
             )*/
         )

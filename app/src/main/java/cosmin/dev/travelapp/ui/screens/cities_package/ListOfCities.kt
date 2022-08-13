@@ -8,7 +8,8 @@ object ListOfCities {
             /*CitiesData(
                 imgRes =,
                 cityName = "",
-                info = ""
+                info = "",
+                country = ""
             )*/
         )
     }
