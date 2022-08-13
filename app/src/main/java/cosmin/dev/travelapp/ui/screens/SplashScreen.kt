@@ -41,11 +41,11 @@ fun SplashScreen(navController: NavController) {
         contentAlignment = Alignment.Center,
         modifier = Modifier.fillMaxSize()
     ) {
-        /*Image(
+        Image(
             painter = painterResource(id = R.drawable.logo),
             contentDescription = "Logo",
             modifier = Modifier.scale(10*scale.value)
-        )*/
+        )
         //change the image here
     }
 }
