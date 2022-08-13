@@ -25,7 +25,7 @@ fun MainScreen(navController: NavController) {
         items(
             items = continentsList,
             itemContent = {
-                ContinentListItem(continentsData = it)
+                ContinentListItem(continentsData = it, navController)
             }
         )
     }

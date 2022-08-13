@@ -15,6 +15,7 @@ import androidx.compose.ui.draw.scale
 import androidx.compose.ui.res.painterResource
 import androidx.navigation.NavController
 import cosmin.dev.travelapp.R
+import cosmin.dev.travelapp.navigation.Screen
 import kotlinx.coroutines.delay
 
 @Composable
@@ -34,7 +35,7 @@ fun SplashScreen(navController: NavController) {
             )
         )
         delay(3000L)
-        navController.navigate("main_screen")
+        navController.navigate(Screen.MainScreen.route)
     }
 
     Box(
