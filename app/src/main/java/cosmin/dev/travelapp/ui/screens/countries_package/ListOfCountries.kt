@@ -815,141 +815,141 @@ object ListOfCountries {
                     country = "Morocco",
                     capital = "Rabat",
                     flagId = R.drawable.morocco,
-                    hint = "It overlooks the Mediterranean Sea to the north and the Atlantic Ocean to the west, and has land borders with Algeria to the east, and the disputed territory of Western Sahara to the south.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Mozambique",
                     capital = "Maputo",
                     flagId = R.drawable.mozambique,
-                    hint = "It is a country located in Southeastern Africa bordered by the Indian Ocean to the east, Tanzania to the north, Malawi and Zambia to the northwest, Zimbabwe to the west, and Eswatini (Swaziland) and South Africa to the southwest.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Myanmar",
                     capital = "Naypyidaw",
                     flagId = R.drawable.myanmar,
-                    hint = "It is the largest country in Mainland Southeast Asia, and has a population of about 54 million as of 2017.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Namibia",
                     capital = "Windhoek",
                     flagId = R.drawable.namibia,
-                    hint = "It shares land borders with Zambia and Angola to the north, Botswana to the east and South Africa to the south and east.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Nauru",
                     capital = "Yaren",
                     flagId = R.drawable.nauru,
-                    hint = "With only a 21 km2 (8.1 sq mi) area, it is the third-smallest country in the world behind Vatican City and Monaco, making it the smallest republic as well as the smallest island nation.",
-                    order = (1..193).random()
+                    continent = "Oceania",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Nepal",
                     capital = "Kathmandu",
                     flagId = R.drawable.nepal,
-                    hint = "It is mainly situated in the Himalayas, but also includes parts of the Indo-Gangetic Plain.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Netherlands",
                     capital = "Amsterdam",
                     flagId = R.drawable.netherlands,
-                    hint = "It is a country located in Northwestern Europe with overseas territories in the Caribbean.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "New Zealand",
                     capital = "Wellington",
                     flagId = R.drawable.newzealand,
-                    hint = "It consists of two main landmasses—the North Island (Te Ika-a-Māui) and the South Island (Te Waipounamu)—and over 700 smaller islands.",
-                    order = (1..193).random()
+                    continent = "Oceania",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Nicaragua",
                     capital = "Managua",
                     flagId = R.drawable.nicaragua,
-                    hint = "It is the largest country in the Central American isthmus, bordered by Honduras to the northwest, the Caribbean to the east, Costa Rica to the south, and the Pacific Ocean to the southwest.",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Niger",
                     capital = "Niamey",
                     flagId = R.drawable.niger,
-                    hint = "It is listed in the Least developed countries group.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Nigeria",
                     capital = "Abuja",
                     flagId = R.drawable.nigeria,
-                    hint = "It is geographically situated between the Sahel to the north and the Gulf of Guinea to the south in the Atlantic Ocean.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "North Korea",
                     capital = "Pyongyang",
                     flagId = R.drawable.northkorea,
-                    hint = "It constitutes the northern half of the Korean Peninsula.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "North Macedonia",
                     capital = "Skopje",
                     flagId = R.drawable.northmacedonia,
-                    hint = "It gained independence in 1991 as one of the successor states of Yugoslavia.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Norway",
                     capital = "Oslo",
                     flagId = R.drawable.norway,
-                    hint = "It is a Nordic country in Northern Europe, the mainland territory of which comprises the western and northernmost portion of the Scandinavian Peninsula.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Oman",
                     capital = "Muscat",
                     flagId = R.drawable.oman,
-                    hint = "It is situated on the southeastern coast of the Arabian Peninsula, and spans the mouth of the Persian Gulf.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Pakistan",
                     capital = "Islamabad",
                     flagId = R.drawable.pakistan,
-                    hint = "It is the world's fifth-most populous country, with a population of almost 242 million, and has the world's second-largest Muslim population.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Palau",
                     capital = "Ngerulmud",
                     flagId = R.drawable.palau,
-                    hint = "The nation has approximately 340 islands and connects the western chain of the Caroline Islands with parts of the Federated States of Micronesia.",
-                    order = (1..193).random()
+                    continent = "Oceania",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Panama",
                     capital = "Panama City",
                     flagId = R.drawable.panama,
-                    hint = "It is a transcontinental country in Central America[10] and South America, bordered by Costa Rica to the west, Colombia to the southeast.",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Papua New Guinea",
                     capital = "Port Moresby",
                     flagId = R.drawable.papuanewguinea,
-                    hint = "It is a country in Oceania that comprises the eastern half of the island of New Guinea and its offshore islands in Melanesia.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Paraguay",
                     capital = "Asuncion",
                     flagId = R.drawable.paraguay,
-                    hint = "It is bordered by Argentina to the south and southwest, Brazil to the east and northeast, and Bolivia to the northwest.",
-                    order = (1..193).random()
+                    continent = "South America",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Peru",
