@@ -6,7 +6,6 @@ import cosmin.dev.travelapp.R
 object ListOfCountries {
     fun getData(): ArrayList<CountriesData>{
         return arrayListOf(
-            //safety index > 65 -> 3 (green) > 55 -> 2 (yellow) > 40 -> 1 (orange) rest -> 0 (red)
                 CountriesData(
                     country = "Afghanistan",
                     capital = "Kabul",
@@ -40,7 +39,7 @@ object ListOfCountries {
                     capital = "Luanda",
                     flagId = R.drawable.angola,
                     continent = "Africa",
-                    safety = 0
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Antigua and Barbuda",
@@ -54,21 +53,21 @@ object ListOfCountries {
                     capital = "Buenos Aires",
                     flagId = R.drawable.argentina,
                     continent = "South America",
-                    safety = 1
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Armenia",
                     capital = "Erevan",
                     flagId = R.drawable.armenia,
                     continent = "Asia",
-                    safety = 3
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Australia",
                     capital = "Canberra",
                     flagId = R.drawable.australia,
                     continent = "Oceania",
-                    safety = 2
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Austria",
@@ -82,7 +81,7 @@ object ListOfCountries {
                     capital = "Baku",
                     flagId = R.drawable.azerbaijan,
                     continent = "Asia",
-                    safety = 3
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Bahamas",
@@ -96,7 +95,7 @@ object ListOfCountries {
                     capital = "Manama",
                     flagId = R.drawable.bahrain,
                     continent = "Asia",
-                    safety = 3
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Bangladesh",
@@ -109,218 +108,218 @@ object ListOfCountries {
                     country = "Barbados",
                     capital = "Bridgetown",
                     flagId = R.drawable.barbados,
-                    hint = "It is an island country in the Lesser Antilles of the West Indies, in the Caribbean region of the Americas.",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Belarus",
                     capital = "Minsk",
                     flagId = R.drawable.belarus,
-                    hint = "During the dissolution of the Soviet Union, they declared independence on 25 August 1991.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Belgium",
                     capital = "Brussels",
                     flagId = R.drawable.belgium,
-                    hint = "It is home to two main linguistic communities: the Dutch-speaking Flemish Community and the French-speaking Community.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Belize",
                     capital = "Belmopan",
                     flagId = R.drawable.belize,
-                    hint = "It is a country on the northeastern coast of Central America.",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Benin",
                     capital = "Porto Novo",
                     flagId = R.drawable.benin,
-                    hint = "The majority of its population lives on the small southern coastline.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Bhutan",
                     capital = "Thimphu",
                     flagId = R.drawable.bhutan,
-                    hint = "It is a landlocked country in the Eastern Himalayas.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Bolivia",
                     capital = "Sucre",
                     flagId = R.drawable.bolivia,
-                    hint = "Spanish is the official and predominant language, although 36 indigenous languages also have official status.",
-                    order = (1..193).random()
+                    continent = "South America",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Bosnia and Herzegovina",
                     capital = "Sarajevo",
                     flagId = R.drawable.bosniaandherzegovina,
-                    hint = "It is a country at the crossroads of south and southeast Europe, located in the Balkans.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Botswana",
                     capital = "Gaborone",
                     flagId = R.drawable.botswana,
-                    hint = "It is a landlocked country in Southern Africa.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Brazil",
                     capital = "Brasilia",
                     flagId = R.drawable.brazil,
-                    hint = "It is the largest country in both South America and Latin America.",
-                    order = (1..193).random()
+                    continent = "South America",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Brunei",
                     capital = "Bandar Seri Begawan",
                     flagId = R.drawable.brunei,
-                    hint = "It is a country located on the north coast of the island of Borneo in Southeast Asia.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Bulgaria",
                     capital = "Sofia",
                     flagId = R.drawable.bulgaria,
-                    hint = "It is situated on the eastern flank of the Balkans.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Burkina Faso",
                     capital = "Ouagadougou",
                     flagId = R.drawable.burkinafaso,
-                    hint = "It is a landlocked country in West Africa.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Burundi",
                     capital = "Gitega",
                     flagId = R.drawable.burundi,
-                    hint = "It is a landlocked country in the Great Rift Valley where the African Great Lakes region and East Africa converge.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Cabo Verde",
                     capital = "Praia",
                     flagId = R.drawable.caboverde,
-                    hint = "It is an archipelago and island country in the central Atlantic Ocean.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Cambodia",
                     capital = "Phnom Penh",
                     flagId = R.drawable.cambodia,
-                    hint = "It is a country located in the southern portion of the Indochinese Peninsula in Southeast Asia.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Cameroon",
                     capital = "Yaounde",
                     flagId = R.drawable.cameroon,
-                    hint = "Due to its strategic position at the crossroads between West Africa and Central Africa, it has been categorized as being in both camps.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Canada",
                     capital = "Ottawa",
                     flagId = R.drawable.canada,
-                    hint = "It the world's second-largest country by total area.",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Central African Republic",
                     capital = "Bangui",
                     flagId = R.drawable.centralafricanrepublic,
-                    hint = "It is bordered by Chad to the north, Sudan to the northeast, South Sudan to the southeast, the DR Congo to the south, the Republic of the Congo to the southwest, and Cameroon to the west.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Chad",
                     capital = "N'Djamena",
                     flagId = R.drawable.chad,
-                    hint = "It is a landlocked country at the crossroads of North and Central Africa.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Chile",
                     capital = "Santiago",
                     flagId = R.drawable.chile,
-                    hint = "It is the southernmost country in the world, and the closest to Antarctica.",
-                    order = (1..193).random()
+                    continent = "South America",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "China",
                     capital = "Beijing",
                     flagId = R.drawable.china,
-                    hint = "It is the world's most populous country, with a population of more than 1.4 billion.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Colombia",
                     capital = "Bogota",
                     flagId = R.drawable.colombia,
-                    hint = "It is a country in South America with an insular region in North America.",
-                    order = (1..193).random()
+                    continent = "South America",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Comoros",
                     capital = "Moroni",
                     flagId = R.drawable.comoros,
-                    hint = "It is an archipelagic country in the Indian Ocean, at the northern end of the Mozambique Channel off the eastern coast of Africa.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Congo",
                     capital = "Brazzaville",
                     flagId = R.drawable.congo,
-                    hint = "It is a country located in the western coast of Central Africa to the west of the Congo river.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Costa Rica",
                     capital = "San Jose",
                     flagId = R.drawable.costarica,
-                    hint = "It borders the Caribbean Sea to the east, and the Pacific Ocean to the west. It also borders Nicaragua to the north and Panama to the south.",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Croatia",
                     capital = "Zagreb",
                     flagId = R.drawable.croatia,
-                    hint = "It shares a coastline along the Adriatic Sea.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Cuba",
                     capital = "Havana",
                     flagId = R.drawable.cuba,
-                    hint = "It is located where the northern Caribbean Sea, Gulf of Mexico, and Atlantic Ocean meet.",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Cyprus",
                     capital = "Nicosia",
                     flagId = R.drawable.cyprus,
-                    hint = "It is an island country in the eastern Mediterranean Sea south of the Anatolian Peninsula.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Czech Republic",
                     capital = "Prague",
                     flagId = R.drawable.czechrepublic,
-                    hint = "It is a landlocked country in Central Europe.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Democratic Republic of Congo",
                     capital = "Kinshasa",
                     flagId = R.drawable.democraticrepublicofthecongo,
-                    hint = "By area, it is the second-largest country in Africa and the 11th-largest in the world.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Denmark",
