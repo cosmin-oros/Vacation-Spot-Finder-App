@@ -325,491 +325,491 @@ object ListOfCountries {
                     country = "Denmark",
                     capital = "Copenhagen",
                     flagId = R.drawable.denmark,
-                    hint = "It is a constitutionally unitary state that includes the autonomous territories of the Faroe Islands and Greenland in the North Atlantic Ocean.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Djibouti",
                     capital = "Djibouti",
                     flagId = R.drawable.djibouti,
-                    hint = "In antiquity, the territory together with Ethiopia, Eritrea and Somaliland was part of the Land of Punt.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Dominica",
                     capital = "Roseau",
                     flagId = R.drawable.dominica,
-                    hint = "It is an island country in the Caribbean.",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Dominican Republic",
                     capital = "Santo Domingo",
                     flagId = R.drawable.dominicanrepublic,
-                    hint = "It is a country located on the island of Hispaniola in the Greater Antilles archipelago of the Caribbean region.",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Ecuador",
                     capital = "Quito",
                     flagId = R.drawable.ecuador,
-                    hint = "The capital is located in a valley on the eastern slopes of Pichincha,[2] an active stratovolcano in the Andes, at an elevation of 2,850 m (9,350 ft), making it the second-highest capital city in the world.",
-                    order = (1..193).random()
+                    continent = "South America",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Egypt",
                     capital = "Cairo",
                     flagId = R.drawable.egypt,
-                    hint = "Home to the pyramids of Giza",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "El Salvador",
                     capital = "San Salvador",
                     flagId = R.drawable.elsalvador,
-                    hint = "It is bordered on the northeast by Honduras, on the northwest by Guatemala, and on the south by the Pacific Ocean.",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Equatorial Guinea",
                     capital = "Malabo",
                     flagId = R.drawable.equatorialguinea,
-                    hint = "It is a country on the west coast of Central Africa.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Eritrea",
                     capital = "Asmara",
                     flagId = R.drawable.eritrea,
-                    hint = "It is a country in the Horn of Africa region of Eastern Africa.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Estonia",
                     capital = "Tallinn",
                     flagId = R.drawable.estonia,
-                    hint = "The territory consists of the mainland, the larger islands of Saaremaa and Hiiumaa, and over 2,200 other islands and islets on the eastern coast of the Baltic Sea.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Eswatini",
                     capital = "Mbabane",
                     flagId = R.drawable.eswatini,
-                    hint = "It was formerly named Swaziland",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Ethiopia",
                     capital = "Addis Abeba",
                     flagId = R.drawable.ethiopia,
-                    hint = "The capital lies several kilometres west of the East African Rift that splits the country into the African and Somali tectonic plates.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Fiji",
                     capital = "Suva",
                     flagId = R.drawable.fiji,
-                    hint = "It is an island country in Melanesia, part of Oceania in the South Pacific Ocean.",
-                    order = (1..193).random()
+                    continent = "Oceania",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Finland",
                     capital = "Helsinki",
                     flagId = R.drawable.finland,
-                    hint = "Finnish, alongside Swedish, are the official languages.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "France",
                     capital = "Paris",
                     flagId = R.drawable.france,
-                    hint = "It is a transcontinental country spanning Western Europe and overseas regions and territories in the Americas and the Atlantic, Pacific and Indian Oceans.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Gabon",
                     capital = "Libreville",
                     flagId = R.drawable.gabon,
-                    hint = "Located on the equator, it is bordered by Equatorial Guinea to the northwest, Cameroon to the north, the Republic of the Congo on the east and south, and the Gulf of Guinea to the west.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 1
                 ),
                 CountriesData(
                     country= "Gambia",
                     capital = "Banjul",
                     flagId = R.drawable.gambia,
-                    hint = "It is the smallest country within mainland Africa and is surrounded by Senegal, except for its western coast on the Atlantic Ocean.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Georgia",
                     capital = "Tbilisi",
                     flagId = R.drawable.georgia,
-                    hint = "It is a country located in the Caucasus, at the intersection of Eastern Europe and Western Asia.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Germany",
                     capital = "Berlin",
                     flagId = R.drawable.germany,
-                    hint = "It is the second most populous country in Europe after Russia, and the most populous member state of the European Union.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Ghana",
                     capital = "Accra",
                     flagId = R.drawable.ghana,
-                    hint = "It abuts the Gulf of Guinea and the Atlantic Ocean to the south, sharing borders with the Ivory Coast in the west, Burkina Faso in the north, and Togo in the east.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Greece",
                     capital = "Athens",
                     flagId = R.drawable.greece,
-                    hint = "It is situated on the southern tip of the Balkans.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Grenada",
                     capital = "Saint George's",
                     flagId = R.drawable.grenada,
-                    hint = "It is an island country in the West Indies in the Caribbean Sea at the southern end of the Grenadines island chain.",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Guatemala",
                     capital = "Ciudad de Guatemala",
                     flagId = R.drawable.guatemala,
-                    hint = "With an estimated population of around 17.2 million, it is the most populous country in Central America and is the 11th most populous country in the Americas.",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Guinea",
                     capital = "Conakry",
                     flagId = R.drawable.guinea,
-                    hint = "It is a coastal country in West Africa.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Guinea Bissau",
                     capital = "Bissau",
                     flagId = R.drawable.guineabissau,
-                    hint = "In the 19th century, it was colonised as Portuguese Guinea.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Guyana",
                     capital = "Georgetown",
                     flagId = R.drawable.guyana,
-                    hint = "It is the only English-speaking country in South America.",
-                    order = (1..193).random()
+                    continent = "South America",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Haiti",
                     capital = "Port au Prince",
                     flagId = R.drawable.haiti,
-                    hint = "It is a country located on the island of Hispaniola in the Greater Antilles archipelago of the Caribbean Sea.",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Honduras",
                     capital = "Tegucigalpa",
                     flagId = R.drawable.honduras,
-                    hint = "It was home to several important Mesoamerican cultures, most notably the Maya, before the Spanish Colonization in the sixteenth century.",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Hungary",
                     capital = "Budapest",
                     flagId = R.drawable.hungary,
-                    hint = "The official language, is the world's most widely spoken Uralic language, and among the few non-Indo-European languages widely spoken in Europe.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Iceland",
                     capital = "Reykjavik",
                     flagId = R.drawable.iceland,
-                    hint = "It  is a Nordic island country in the North Atlantic Ocean and the most sparsely populated country in Europe.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "India",
                     capital = "New Delhi",
                     flagId = R.drawable.india,
-                    hint = "It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Indonesia",
                     capital = "Jakarta",
                     flagId = R.drawable.indonesia,
-                    hint = "It is the world's largest island country, the largest archipelagic state and the 14th-largest country by area.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Iran",
                     capital = "Tehran",
                     flagId = R.drawable.iran,
-                    hint = "Also called Persia, it's a country in Western Asia",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Iraq",
                     capital = "Bagdad",
                     flagId = R.drawable.iraq,
-                    hint = "It is home to diverse ethnic groups including Arabs, Kurds, Turkmens, Assyrians, Armenians, Yazidis, Mandaeans, Persians and Shabakis with similarly diverse geography and wildlife.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Ireland",
                     capital = "Dublin",
                     flagId = R.drawable.ireland,
-                    hint = "It is separated from Great Britain to its east by the North Channel, the Irish Sea, and St George's Channel.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Israel",
                     capital = "Jerusalem",
                     flagId = R.drawable.israel,
-                    hint = "Inhabited since the Middle Bronze Age by Canaanite tribes, it was once the setting for much of Biblical history.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Italy",
                     capital = "Rome",
                     flagId = R.drawable.italy,
-                    hint = "It's a country that consists of a peninsula delimited by the Alps and several islands surrounding it.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Ivory Coast",
                     capital = "Yamoussoukro",
                     flagId = R.drawable.ivorycoast,
-                    hint = "It is a country on the southern coast of West Africa.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Jamaica",
                     capital = "Kingston",
                     flagId = R.drawable.jamaica,
-                    hint = "It it is the third-largest island of the Greater Antilles and the Caribbean (after Cuba and Hispaniola).",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Japan",
                     capital = "Tokyo",
                     flagId = R.drawable.japan,
-                    hint = "It is an island country in East Asia.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Jordan",
                     capital = "Amman",
                     flagId = R.drawable.jordan,
-                    hint = "It is situated at the crossroads of Asia, Africa and Europe.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Kazakhstan",
                     capital = "Nur-Sultan",
                     flagId = R.drawable.kazakhstan,
-                    hint = "It is a transcontinental landlocked country located mainly in Central Asia and partly in Eastern Europe.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Kenya",
                     capital = "Nairobi",
                     flagId = R.drawable.kenya,
-                    hint = "As of 2020, it is the third-largest economy in sub-Saharan Africa after Nigeria and South Africa.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Kiribati",
                     capital = "Tarawa",
                     flagId = R.drawable.kiribati,
-                    hint = "It is an island country in the central Pacific Ocean.",
-                    order = (1..193).random()
+                    continent = "Oceania",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Kuwait",
                     capital = "Al-Kuwait",
                     flagId = R.drawable.kuwait,
-                    hint = "It is situated in the northern edge of Eastern Arabia at the tip of the Persian Gulf, bordering Iraq to the north and Saudi Arabia to the south.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Kyrgyzstan",
                     capital = "Bishkek",
                     flagId = R.drawable.kyrgyzstan,
-                    hint = "It is bordered by Kazakhstan to the north, Uzbekistan to the west, Tajikistan to the south, and China to the east.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Laos",
                     capital = "Vientiane",
                     flagId = R.drawable.laos,
-                    hint = "It is a socialist state and the only landlocked country in Southeast Asia.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Latvia",
                     capital = "Riga",
                     flagId = R.drawable.latvia,
-                    hint = "It is a country in the Baltic region of Northern Europe.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Lebanon",
                     capital = "Beirut",
                     flagId = R.drawable.lebanon,
-                    hint = "It is located between Syria to the north and east and Israel to the south, while Cyprus lies to its west across the Mediterranean Sea.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Lesotho",
                     capital = "Maseru",
                     flagId = R.drawable.lesotho,
-                    hint = "It is a landlocked country enclaved by South Africa.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Liberia",
                     capital = "Monrovia",
                     flagId = R.drawable.liberia,
-                    hint = "It is bordered by Sierra Leone to its northwest, Guinea to its north, Ivory Coast to its east, and the Atlantic Ocean to its south and southwest.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Libya",
                     capital = "Tripoli",
                     flagId = R.drawable.libya,
-                    hint = "It is a country in the Maghreb region in North Africa.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Liechtenstein",
                     capital = "Vaduz",
                     flagId = R.drawable.liechtenstein,
-                    hint = "It is a German-speaking microstate located in the Alps between Austria and Switzerland.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Lithuania",
                     capital = "Vilnius",
                     flagId = R.drawable.lithuania,
-                    hint = "It is one of three Baltic states and lies on the eastern shore of the Baltic Sea.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Luxembourg",
                     capital = "Luxembourg",
                     flagId = R.drawable.luxembourg,
-                    hint = "Its capital is one of the four official capitals of the European Union (together with Brussels, Frankfurt, and Strasbourg)",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Madagascar",
                     capital = "Antananarivo",
                     flagId = R.drawable.madagascar,
-                    hint = "It is an island country in the Indian Ocean, approximately 400 kilometres (250 miles) off the coast of East Africa across the Mozambique Channel.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Malawi",
                     capital = "Lilongwe",
                     flagId = R.drawable.malawi,
-                    hint = "It is a landlocked country in Southeastern Africa that was formerly known as Nyasaland.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Malaysia",
                     capital = "Kuala Lumpur",
                     flagId = R.drawable.malaysia,
-                    hint = "It is a country in Southeast Asia.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Maldives",
                     capital = "Male",
                     flagId = R.drawable.maldives,
-                    hint = "It lies southwest of Sri Lanka and India, about 750 kilometres (470 miles; 400 nautical miles) from the Asian continent's mainland.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 1
                 ),
                 CountriesData(
                     country = "Mali",
                     capital = "Bamako",
                     flagId = R.drawable.mali,
-                    hint = "The country is the third largest producer of gold on the African continent.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Malta",
                     capital = "Valletta",
                     flagId = R.drawable.malta,
-                    hint = "It is an island country in the European Union consisting of an archipelago in the Mediterranean Sea, and considered part of Southern Europe.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Marshall Islands",
                     capital = "Majuro",
                     flagId = R.drawable.marshallislands,
-                    hint = "It is an independent island country near the Equator in the Pacific Ocean, slightly west of the International Date Line.",
-                    order = (1..193).random()
+                    continent = "Oceania",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Mauritania",
                     capital = "Nouakchott",
                     flagId = R.drawable.mauritania,
-                    hint = "It is bordered by the Atlantic Ocean to the west, Western Sahara to the north and northwest, Algeria to the northeast, Mali to the east and southeast, and Senegal to the southwest.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 0
                 ),
                 CountriesData(
                     country = "Mauritius",
                     capital = "Port Louis",
                     flagId = R.drawable.mauritius,
-                    hint = "It is an island nation in the Indian Ocean about 2,000 kilometres (1,200 mi) off the southeast coast of the African continent, east of Madagascar.",
-                    order = (1..193).random()
+                    continent = "Africa",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Mexico",
                     capital = "Ciudad de Mexico",
                     flagId = R.drawable.mexico,
-                    hint = "It is a country in the southern portion of North America.",
-                    order = (1..193).random()
+                    continent = "North America",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Micronesia",
                     capital = "Palikir",
                     flagId = R.drawable.micronesia,
-                    hint = "It consists of four states – from west to east, Yap, Chuuk, Pohnpei and Kosrae – that are spread across the western Pacific.",
-                    order = (1..193).random()
+                    continent = "Oceania",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Moldova",
                     capital = "Chisinau",
                     flagId = R.drawable.moldova,
-                    hint = "It is bordered by Romania to the west and Ukraine to the north, east, and south.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Monaco",
                     capital = "Monaco",
                     flagId = R.drawable.monaco,
-                    hint = "It is a sovereign city-state and microstate on the French Riviera a few kilometres west of the Italian region of Liguria, in Western Europe, on the Mediterranean Sea.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 3
                 ),
                 CountriesData(
                     country = "Mongolia",
                     capital = "UlaanBaatar",
                     flagId = R.drawable.mongolia,
-                    hint = "It covers an area of 1,564,116 square kilometres (603,909 square miles), with a population of just 3.3 million, making it the world's most sparsely populated sovereign nation.",
-                    order = (1..193).random()
+                    continent = "Asia",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Montenegro",
                     capital = "Podgorica",
                     flagId = R.drawable.montenegro,
-                    hint = "It is located on the Adriatic Sea and is a part of the Balkans.",
-                    order = (1..193).random()
+                    continent = "Europe",
+                    safety = 2
                 ),
                 CountriesData(
                     country = "Morocco",
