@@ -10,6 +10,7 @@ import androidx.compose.material.Button
 import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
@@ -18,11 +19,17 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import cosmin.dev.travelapp.navigation.Screen
 import cosmin.dev.travelapp.ui.screens.continents_package.ContinentListItem
+import cosmin.dev.travelapp.ui.screens.continents_package.ListOfContinents
+import cosmin.dev.travelapp.ui.screens.countries_package.CountryListItem
+import cosmin.dev.travelapp.ui.screens.countries_package.ListOfCountries
 
 @Composable
 fun CountriesScreen(navController: NavController, name: String?) {
     if (name != null) {
         Text(text = name)
+    }
+    val countriesList = remember{
+        ListOfCountries.getData()
     }
 
     Column(
@@ -62,14 +69,14 @@ fun CountriesScreen(navController: NavController, name: String?) {
     }
 
     //list all the countries
-    /*LazyColumn(
+    LazyColumn(
         contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp)
     ){
         items(
             items = countriesList,
             itemContent = {
-                CountriesListItem(continentsData = it, navController)
+                CountryListItem(countriesData = it, navController)
             }
         )
-    }*/
+    }
 }
