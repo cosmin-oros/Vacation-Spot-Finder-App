@@ -72,6 +72,7 @@ fun CountriesScreen(navController: NavController, name: String?) {
     LazyColumn(
         contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp)
     ){
+        //check if the country name is equal to name, make a function to get the element of the list
         items(
             items = countriesList,
             itemContent = {
