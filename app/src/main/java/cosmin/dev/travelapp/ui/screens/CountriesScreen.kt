@@ -26,47 +26,8 @@ import cosmin.dev.travelapp.ui.screens.countries_package.ListOfCountries
 
 @Composable
 fun CountriesScreen(navController: NavController, name: String?) {
-    if (name != null) {
-        Text(text = name)
-    }
     val countriesList = remember{
         ListOfCountries.getData()
-    }
-
-    Column(
-        modifier = Modifier.fillMaxSize()
-    ) {
-        //navigate back to the main screen button
-        Button(
-            onClick = {
-                navController.navigate(Screen.MainScreen.route)
-            },
-            colors = ButtonDefaults.buttonColors(
-                backgroundColor = Color.Transparent,
-                contentColor = Color.LightGray
-
-            ),
-            modifier = Modifier
-                .padding(8.dp)
-                .border(
-                    width = 5.dp,
-                    brush = Brush.horizontalGradient(listOf(Color.Cyan, Color.Blue)),
-                    shape = RoundedCornerShape(15.dp)
-                )
-                .width(75.dp)
-                .background(
-                    Brush.horizontalGradient(
-                        colors = listOf(
-                            Color.Transparent,
-                            Color.Transparent
-                        ),
-                        startX = 150f
-                    )
-                )
-        ) {
-            Text(text = "Go back", fontSize = 8.sp)
-        }
-
     }
 
     //list all the countries
