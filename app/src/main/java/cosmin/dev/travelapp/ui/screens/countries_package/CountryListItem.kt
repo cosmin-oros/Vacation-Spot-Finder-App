@@ -21,33 +21,35 @@ import cosmin.dev.travelapp.ui.screens.continents_package.ContinentImage
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
-fun CountryListItem(countriesData: CountriesData, navController: NavController) {
-    Card(
-        modifier = Modifier
-            .padding(horizontal = 8.dp, vertical = 8.dp)
-            .fillMaxWidth(),
-        elevation = 2.dp,
-        backgroundColor = Color.DarkGray,
-        shape = RoundedCornerShape(corner = CornerSize(16.dp)),
-        onClick = {
-            //need to pass an argument to know what continent its on
-            /*navController.navigate(Screen.CitiesScreen.withArgs(countriesData.country))*/
-        }
-    ){
-        Row {
-            CountryImage(countriesData = countriesData)
-
-            Column(
-                modifier = Modifier
-                    .padding(16.dp)
-                    .fillMaxWidth()
-                    .align(Alignment.CenterVertically)
-            ) {
-                Text(text = countriesData.country, style = MaterialTheme.typography.h6)
-                Text(text = countriesData.capital, style = MaterialTheme.typography.caption)
-                //insert a bar for safety
+fun CountryListItem(countriesData: CountriesData, navController: NavController, name: String?) {
+    if (countriesData.continent == name) {
+        Card(
+            modifier = Modifier
+                .padding(horizontal = 8.dp, vertical = 8.dp)
+                .fillMaxWidth(),
+            elevation = 2.dp,
+            backgroundColor = Color.DarkGray,
+            shape = RoundedCornerShape(corner = CornerSize(16.dp)),
+            onClick = {
+                //need to pass an argument to know what continent its on
+                /*navController.navigate(Screen.CitiesScreen.withArgs(countriesData.country))*/
             }
+        ) {
+            Row {
+                CountryImage(countriesData = countriesData)
 
+                Column(
+                    modifier = Modifier
+                        .padding(16.dp)
+                        .fillMaxWidth()
+                        .align(Alignment.CenterVertically)
+                ) {
+                    Text(text = countriesData.country, style = MaterialTheme.typography.h6)
+                    Text(text = countriesData.capital, style = MaterialTheme.typography.caption)
+                    //insert a bar for safety
+                }
+
+            }
         }
     }
 }
