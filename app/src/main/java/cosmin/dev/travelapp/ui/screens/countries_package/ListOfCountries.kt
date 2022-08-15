@@ -53,511 +53,511 @@ object ListOfCountries {
                     capital = "Buenos Aires",
                     flagId = R.drawable.argentina,
                     continent = "South America",
-                    safety = 2
+                    safety = 70
                 ),
                 CountriesData(
                     country = "Armenia",
                     capital = "Erevan",
                     flagId = R.drawable.armenia,
                     continent = "Asia",
-                    safety = 1
+                    safety = 60
                 ),
                 CountriesData(
                     country = "Australia",
                     capital = "Canberra",
                     flagId = R.drawable.australia,
                     continent = "Oceania",
-                    safety = 3
+                    safety = 86
                 ),
                 CountriesData(
                     country = "Austria",
                     capital = "Vienna",
                     flagId = R.drawable.austria,
                     continent = "Europe",
-                    safety = 3
+                    safety = 90
                 ),
                 CountriesData(
                     country = "Azerbaijan",
                     capital = "Baku",
                     flagId = R.drawable.azerbaijan,
                     continent = "Asia",
-                    safety = 1
+                    safety = 51
                 ),
                 CountriesData(
                     country = "Bahamas",
                     capital = "Nassau",
                     flagId = R.drawable.bahamas,
                     continent = "North America",
-                    safety = 1
+                    safety = 36
                 ),
                 CountriesData(
                     country = "Bahrain",
                     capital = "Manama",
                     flagId = R.drawable.bahrain,
                     continent = "Asia",
-                    safety = 1
+                    safety = 46
                 ),
                 CountriesData(
                     country = "Bangladesh",
                     capital = "Dacca",
                     flagId = R.drawable.bangladesh,
                     continent = "Asia",
-                    safety = 1
+                    safety = 49
                 ),
                 CountriesData(
                     country = "Barbados",
                     capital = "Bridgetown",
                     flagId = R.drawable.barbados,
                     continent = "North America",
-                    safety = 3
+                    safety = 80
                 ),
                 CountriesData(
                     country = "Belarus",
                     capital = "Minsk",
                     flagId = R.drawable.belarus,
                     continent = "Europe",
-                    safety = 2
+                    safety = 77
                 ),
                 CountriesData(
                     country = "Belgium",
                     capital = "Brussels",
                     flagId = R.drawable.belgium,
                     continent = "Europe",
-                    safety = 3
+                    safety = 70
                 ),
                 CountriesData(
                     country = "Belize",
                     capital = "Belmopan",
                     flagId = R.drawable.belize,
                     continent = "North America",
-                    safety = 1
+                    safety = 43
                 ),
                 CountriesData(
                     country = "Benin",
                     capital = "Porto Novo",
                     flagId = R.drawable.benin,
                     continent = "Africa",
-                    safety = 1
+                    safety = 45
                 ),
                 CountriesData(
                     country = "Bhutan",
                     capital = "Thimphu",
                     flagId = R.drawable.bhutan,
                     continent = "Asia",
-                    safety = 2
+                    safety = 70
                 ),
                 CountriesData(
                     country = "Bolivia",
                     capital = "Sucre",
                     flagId = R.drawable.bolivia,
                     continent = "South America",
-                    safety = 1
+                    safety = 57
                 ),
                 CountriesData(
                     country = "Bosnia and Herzegovina",
                     capital = "Sarajevo",
                     flagId = R.drawable.bosniaandherzegovina,
                     continent = "Europe",
-                    safety = 1
+                    safety = 48
                 ),
                 CountriesData(
                     country = "Botswana",
                     capital = "Gaborone",
                     flagId = R.drawable.botswana,
                     continent = "Africa",
-                    safety = 2
+                    safety = 77
                 ),
                 CountriesData(
                     country = "Brazil",
                     capital = "Brasilia",
                     flagId = R.drawable.brazil,
                     continent = "South America",
-                    safety = 1
+                    safety = 52
                 ),
                 CountriesData(
                     country = "Brunei",
                     capital = "Bandar Seri Begawan",
                     flagId = R.drawable.brunei,
                     continent = "Asia",
-                    safety = 3
+                    safety = 80
                 ),
                 CountriesData(
                     country = "Bulgaria",
                     capital = "Sofia",
                     flagId = R.drawable.bulgaria,
                     continent = "Europe",
-                    safety = 3
+                    safety = 80
                 ),
                 CountriesData(
                     country = "Burkina Faso",
                     capital = "Ouagadougou",
                     flagId = R.drawable.burkinafaso,
                     continent = "Africa",
-                    safety = 0
+                    safety = 41
                 ),
                 CountriesData(
                     country = "Burundi",
                     capital = "Gitega",
                     flagId = R.drawable.burundi,
                     continent = "Africa",
-                    safety = 0
+                    safety = 30
                 ),
                 CountriesData(
                     country = "Cabo Verde",
                     capital = "Praia",
                     flagId = R.drawable.caboverde,
                     continent = "Africa",
-                    safety = 2
+                    safety = 68
                 ),
                 CountriesData(
                     country = "Cambodia",
                     capital = "Phnom Penh",
                     flagId = R.drawable.cambodia,
                     continent = "Asia",
-                    safety = 2
+                    safety = 68
                 ),
                 CountriesData(
                     country = "Cameroon",
                     capital = "Yaounde",
                     flagId = R.drawable.cameroon,
                     continent = "Africa",
-                    safety = 0
+                    safety = 36
                 ),
                 CountriesData(
                     country = "Canada",
                     capital = "Ottawa",
                     flagId = R.drawable.canada,
                     continent = "North America",
-                    safety = 3
+                    safety = 88
                 ),
                 CountriesData(
                     country = "Central African Republic",
                     capital = "Bangui",
                     flagId = R.drawable.centralafricanrepublic,
                     continent = "Africa",
-                    safety = 0
+                    safety = 32
                 ),
                 CountriesData(
                     country = "Chad",
                     capital = "N'Djamena",
                     flagId = R.drawable.chad,
                     continent = "Africa",
-                    safety = 0
+                    safety = 32
                 ),
                 CountriesData(
                     country = "Chile",
                     capital = "Santiago",
                     flagId = R.drawable.chile,
                     continent = "South America",
-                    safety = 3
+                    safety = 79
                 ),
                 CountriesData(
                     country = "China",
                     capital = "Beijing",
                     flagId = R.drawable.china,
                     continent = "Asia",
-                    safety = 2
+                    safety = 66
                 ),
                 CountriesData(
                     country = "Colombia",
                     capital = "Bogota",
                     flagId = R.drawable.colombia,
                     continent = "South America",
-                    safety = 1
+                    safety = 42
                 ),
                 CountriesData(
                     country = "Comoros",
                     capital = "Moroni",
                     flagId = R.drawable.comoros,
                     continent = "Africa",
-                    safety = 2
+                    safety = 53
                 ),
                 CountriesData(
                     country = "Congo",
                     capital = "Brazzaville",
                     flagId = R.drawable.congo,
                     continent = "Africa",
-                    safety = 1
+                    safety = 54
                 ),
                 CountriesData(
                     country = "Costa Rica",
                     capital = "San Jose",
                     flagId = R.drawable.costarica,
                     continent = "North America",
-                    safety = 2
+                    safety = 64
                 ),
                 CountriesData(
                     country = "Croatia",
                     capital = "Zagreb",
                     flagId = R.drawable.croatia,
                     continent = "Europe",
-                    safety = 3
+                    safety = 83
                 ),
                 CountriesData(
                     country = "Cuba",
                     capital = "Havana",
                     flagId = R.drawable.cuba,
                     continent = "North America",
-                    safety = 1
+                    safety = 47
                 ),
                 CountriesData(
                     country = "Cyprus",
                     capital = "Nicosia",
                     flagId = R.drawable.cyprus,
                     continent = "Europe",
-                    safety = 2
+                    safety = 75
                 ),
                 CountriesData(
                     country = "Czech Republic",
                     capital = "Prague",
                     flagId = R.drawable.czechrepublic,
                     continent = "Europe",
-                    safety = 3
+                    safety = 88
                 ),
                 CountriesData(
                     country = "Democratic Republic of Congo",
                     capital = "Kinshasa",
                     flagId = R.drawable.democraticrepublicofthecongo,
                     continent = "Africa",
-                    safety = 0
+                    safety = 21
                 ),
                 CountriesData(
                     country = "Denmark",
                     capital = "Copenhagen",
                     flagId = R.drawable.denmark,
                     continent = "Europe",
-                    safety = 3
+                    safety = 94
                 ),
                 CountriesData(
                     country = "Djibouti",
                     capital = "Djibouti",
                     flagId = R.drawable.djibouti,
                     continent = "Africa",
-                    safety = 0
+                    safety = 38
                 ),
                 CountriesData(
                     country = "Dominica",
                     capital = "Roseau",
                     flagId = R.drawable.dominica,
                     continent = "North America",
-                    safety = 3
+                    safety = 80
                 ),
                 CountriesData(
                     country = "Dominican Republic",
                     capital = "Santo Domingo",
                     flagId = R.drawable.dominicanrepublic,
                     continent = "North America",
-                    safety = 1
+                    safety = 54
                 ),
                 CountriesData(
                     country = "Ecuador",
                     capital = "Quito",
                     flagId = R.drawable.ecuador,
                     continent = "South America",
-                    safety = 1
+                    safety = 55
                 ),
                 CountriesData(
                     country = "Egypt",
                     capital = "Cairo",
                     flagId = R.drawable.egypt,
                     continent = "Africa",
-                    safety = 1
+                    safety = 38
                 ),
                 CountriesData(
                     country = "El Salvador",
                     capital = "San Salvador",
                     flagId = R.drawable.elsalvador,
                     continent = "North America",
-                    safety = 1
+                    safety = 50
                 ),
                 CountriesData(
                     country = "Equatorial Guinea",
                     capital = "Malabo",
                     flagId = R.drawable.equatorialguinea,
                     continent = "Africa",
-                    safety = 2
+                    safety = 68
                 ),
                 CountriesData(
                     country = "Eritrea",
                     capital = "Asmara",
                     flagId = R.drawable.eritrea,
                     continent = "Africa",
-                    safety = 0
+                    safety = 32
                 ),
                 CountriesData(
                     country = "Estonia",
                     capital = "Tallinn",
                     flagId = R.drawable.estonia,
                     continent = "Europe",
-                    safety = 3
+                    safety = 82
                 ),
                 CountriesData(
                     country = "Eswatini",
                     capital = "Mbabane",
                     flagId = R.drawable.eswatini,
                     continent = "Africa",
-                    safety = 1
+                    safety = 47
                 ),
                 CountriesData(
                     country = "Ethiopia",
                     capital = "Addis Abeba",
                     flagId = R.drawable.ethiopia,
                     continent = "Africa",
-                    safety = 1
+                    safety = 41
                 ),
                 CountriesData(
                     country = "Fiji",
                     capital = "Suva",
                     flagId = R.drawable.fiji,
                     continent = "Oceania",
-                    safety = 2
+                    safety = 70
                 ),
                 CountriesData(
                     country = "Finland",
                     capital = "Helsinki",
                     flagId = R.drawable.finland,
                     continent = "Europe",
-                    safety = 3
+                    safety = 86
                 ),
                 CountriesData(
                     country = "France",
                     capital = "Paris",
                     flagId = R.drawable.france,
                     continent = "Europe",
-                    safety = 2
+                    safety = 64
                 ),
                 CountriesData(
                     country = "Gabon",
                     capital = "Libreville",
                     flagId = R.drawable.gabon,
                     continent = "Africa",
-                    safety = 1
+                    safety = 45
                 ),
                 CountriesData(
                     country= "Gambia",
                     capital = "Banjul",
                     flagId = R.drawable.gambia,
                     continent = "Africa",
-                    safety = 2
+                    safety = 69
                 ),
                 CountriesData(
                     country = "Georgia",
                     capital = "Tbilisi",
                     flagId = R.drawable.georgia,
                     continent = "Asia",
-                    safety = 2
+                    safety = 63
                 ),
                 CountriesData(
                     country = "Germany",
                     capital = "Berlin",
                     flagId = R.drawable.germany,
                     continent = "Europe",
-                    safety = 3
+                    safety = 85
                 ),
                 CountriesData(
                     country = "Ghana",
                     capital = "Accra",
                     flagId = R.drawable.ghana,
                     continent = "Africa",
-                    safety = 2
+                    safety = 73
                 ),
                 CountriesData(
                     country = "Greece",
                     capital = "Athens",
                     flagId = R.drawable.greece,
                     continent = "Europe",
-                    safety = 2
+                    safety = 73
                 ),
                 CountriesData(
                     country = "Grenada",
                     capital = "Saint George's",
                     flagId = R.drawable.grenada,
                     continent = "North America",
-                    safety = 3
+                    safety = 80
                 ),
                 CountriesData(
                     country = "Guatemala",
                     capital = "Ciudad de Guatemala",
                     flagId = R.drawable.guatemala,
                     continent = "North America",
-                    safety = 1
+                    safety = 53
                 ),
                 CountriesData(
                     country = "Guinea",
                     capital = "Conakry",
                     flagId = R.drawable.guinea,
                     continent = "Africa",
-                    safety = 1
+                    safety = 39
                 ),
                 CountriesData(
                     country = "Guinea Bissau",
                     capital = "Bissau",
                     flagId = R.drawable.guineabissau,
                     continent = "Africa",
-                    safety = 0
+                    safety = 36
                 ),
                 CountriesData(
                     country = "Guyana",
                     capital = "Georgetown",
                     flagId = R.drawable.guyana,
                     continent = "South America",
-                    safety = 1
+                    safety = 43
                 ),
                 CountriesData(
                     country = "Haiti",
                     capital = "Port au Prince",
                     flagId = R.drawable.haiti,
                     continent = "North America",
-                    safety = 1
+                    safety = 42
                 ),
                 CountriesData(
                     country = "Honduras",
                     capital = "Tegucigalpa",
                     flagId = R.drawable.honduras,
                     continent = "North America",
-                    safety = 1
+                    safety = 49
                 ),
                 CountriesData(
                     country = "Hungary",
                     capital = "Budapest",
                     flagId = R.drawable.hungary,
                     continent = "Europe",
-                    safety = 3
+                    safety = 83
                 ),
                 CountriesData(
                     country = "Iceland",
                     capital = "Reykjavik",
                     flagId = R.drawable.iceland,
                     continent = "Europe",
-                    safety = 3
+                    safety = 95
                 ),
                 CountriesData(
                     country = "India",
                     capital = "New Delhi",
                     flagId = R.drawable.india,
                     continent = "Asia",
-                    safety = 1
+                    safety = 47
                 ),
                 CountriesData(
                     country = "Indonesia",
                     capital = "Jakarta",
                     flagId = R.drawable.indonesia,
                     continent = "Asia",
-                    safety = 1
+                    safety = 58
                 ),
                 CountriesData(
                     country = "Iran",
                     capital = "Tehran",
                     flagId = R.drawable.iran,
                     continent = "Asia",
-                    safety = 0
+                    safety = 35
                 ),
                 CountriesData(
                     country = "Iraq",
                     capital = "Bagdad",
                     flagId = R.drawable.iraq,
                     continent = "Asia",
-                    safety = 0
+                    safety = 14
                 ),
                 CountriesData(
                     country = "Ireland",
