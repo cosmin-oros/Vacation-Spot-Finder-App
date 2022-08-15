@@ -42,7 +42,12 @@ fun CountryListItem(countriesData: CountriesData, navController: NavController, 
                         .padding(8.dp)
                         .border(
                             width = 5.dp,
-                            brush = Brush.horizontalGradient(listOf(Color.DarkGray, Color.LightGray)),
+                            brush = Brush.horizontalGradient(
+                                listOf(
+                                    Color.DarkGray,
+                                    Color.LightGray
+                                )
+                            ),
                             shape = RoundedCornerShape(15.dp)
                         )
                         .width(90.dp)
@@ -87,7 +92,8 @@ fun CountryListItem(countriesData: CountriesData, navController: NavController, 
                     ) {
                         Text(text = countriesData.country, style = MaterialTheme.typography.h6)
                         Text(text = countriesData.capital, style = MaterialTheme.typography.caption)
-                        //insert a bar for safety
+                        //change color based on index
+                        Text(text = "Safety index: " + countriesData.safety, style = MaterialTheme.typography.h5)
                     }
 
                 }
