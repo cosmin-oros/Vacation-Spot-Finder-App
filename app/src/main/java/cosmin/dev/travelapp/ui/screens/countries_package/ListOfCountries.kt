@@ -1151,7 +1151,7 @@ object ListOfCountries {
                     country = "Sri Lanka",
                     capital = "Colombo",
                     flagId = R.drawable.srilanka,
-                    continent = "Africa",
+                    continent = "Asia",
                     safety = 2
                 ),
                 CountriesData(
@@ -1235,7 +1235,7 @@ object ListOfCountries {
                     country = "Trinidad And Tobago",
                     capital = "Port of Spain",
                     flagId = R.drawable.trinidadandtobago,
-                    continent = "North america",
+                    continent = "North America",
                     safety = 1
                 ),
                 CountriesData(

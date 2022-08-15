@@ -13,7 +13,7 @@ object ListOfContinents{
             ContinentsData(
                 imgRes = R.drawable.asia,
                 continentName = "Asia",
-                info = "48 countries"
+                info = "47 countries"
             ),
             ContinentsData(
                 imgRes = R.drawable.europe,
@@ -28,7 +28,7 @@ object ListOfContinents{
             ContinentsData(
                 imgRes = R.drawable.oceania,
                 continentName = "Oceania",
-                info = "14 countries"
+                info = "13 countries"
             ),
             ContinentsData(
                 imgRes = R.drawable.southamerica,
