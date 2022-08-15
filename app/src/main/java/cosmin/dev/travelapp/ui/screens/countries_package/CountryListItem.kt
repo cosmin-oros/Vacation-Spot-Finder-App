@@ -93,7 +93,26 @@ fun CountryListItem(countriesData: CountriesData, navController: NavController, 
                         Text(text = countriesData.country, style = MaterialTheme.typography.h5)
                         Text(text = countriesData.capital, style = MaterialTheme.typography.caption)
                         //change color based on index
-                        Text(text = "Safety: " + countriesData.safety + "%", style = MaterialTheme.typography.h6)
+
+                        if (countriesData.safety >= 65) {
+                            Text(
+                                text = "Safety: " + countriesData.safety + "%",
+                                style = MaterialTheme.typography.h6,
+                                color = Color.Green
+                            )
+                        }else if (countriesData.safety in 35..64){
+                            Text(
+                                text = "Safety: " + countriesData.safety + "%",
+                                style = MaterialTheme.typography.h6,
+                                color = Color.Yellow
+                            )
+                        }else{
+                            Text(
+                                text = "Safety: " + countriesData.safety + "%",
+                                style = MaterialTheme.typography.h6,
+                                color = Color.Red
+                            )
+                        }
                     }
 
                 }
