@@ -11,42 +11,42 @@ object ListOfCountries {
                     capital = "Kabul",
                     flagId = R.drawable.afghanistan,
                     continent = "Asia",
-                    safety = 0
+                    safety = 14
                 ),
                 CountriesData(
                     country = "Albania",
                     capital = "Tirana",
                     flagId = R.drawable.albania,
                     continent = "Europe",
-                    safety = 2
+                    safety = 75
                 ),
                 CountriesData(
                     country = "Algeria",
                     capital = "Alger",
                     flagId = R.drawable.algeria,
                     continent = "Africa",
-                    safety = 1
+                    safety = 44
                 ),
                 CountriesData(
                     country = "Andorra",
                     capital = "Andorra la Vella",
                     flagId = R.drawable.andorra,
                     continent = "Europe",
-                    safety = 3
+                    safety = 90
                 ),
                 CountriesData(
                     country = "Angola",
                     capital = "Luanda",
                     flagId = R.drawable.angola,
                     continent = "Africa",
-                    safety = 1
+                    safety = 48
                 ),
                 CountriesData(
                     country = "Antigua and Barbuda",
                     capital = "Saint John's",
                     flagId = R.drawable.antiguaandbarbuda,
                     continent = "North America",
-                    safety = 2
+                    safety = 46
                 ),
                 CountriesData(
                     country = "Argentina",
