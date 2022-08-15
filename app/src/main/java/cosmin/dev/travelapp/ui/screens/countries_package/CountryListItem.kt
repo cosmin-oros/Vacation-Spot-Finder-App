@@ -90,10 +90,10 @@ fun CountryListItem(countriesData: CountriesData, navController: NavController, 
                             .fillMaxWidth()
                             .align(Alignment.CenterVertically)
                     ) {
-                        Text(text = countriesData.country, style = MaterialTheme.typography.h6)
+                        Text(text = countriesData.country, style = MaterialTheme.typography.h5)
                         Text(text = countriesData.capital, style = MaterialTheme.typography.caption)
                         //change color based on index
-                        Text(text = "Safety index: " + countriesData.safety, style = MaterialTheme.typography.h5)
+                        Text(text = "Safety: " + countriesData.safety + "%", style = MaterialTheme.typography.h6)
                     }
 
                 }
