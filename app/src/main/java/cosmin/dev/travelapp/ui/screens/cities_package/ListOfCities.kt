@@ -8,7 +8,8 @@ object ListOfCities {
             CitiesData(
                 imgRes = R.drawable.afghanistan,
                 cityName = "Kabul",
-                country = "Afghanistan"
+                country = "Afghanistan",
+                firstCity = 1
             )
         )
     }
