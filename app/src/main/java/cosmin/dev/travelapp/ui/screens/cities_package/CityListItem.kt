@@ -26,10 +26,10 @@ fun CityListItem(citiesData: CitiesData, navController: NavController, name: Str
             Column(
                 modifier = Modifier.fillMaxSize()
             ) {
-                //navigate back to the main screen button
+                //navigate back to the countries screen
                 Button(
                     onClick = {
-                        navController.navigate(Screen.MainScreen.route)
+                        navController.navigate(Screen.CountriesScreen.withArgs(citiesData.continent))
                     },
                     colors = ButtonDefaults.buttonColors(
                         backgroundColor = Color.Transparent,

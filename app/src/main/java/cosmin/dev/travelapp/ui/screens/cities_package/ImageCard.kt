@@ -24,14 +24,15 @@ fun ImageCard(
     modifier: Modifier = Modifier
 ) {
     Card(
-        modifier = modifier.fillMaxWidth(0.3f),
+        modifier = modifier
+            .fillMaxWidth(0.6f),
         shape = RoundedCornerShape(15.dp),
         elevation = 5.dp    //shadow
     ) {
         //items stacked on top of each other
         Box(
             modifier = Modifier
-                .height(60.dp)
+                .height(150.dp)
 
         ){
             //what's first is at the bottom of the stack
