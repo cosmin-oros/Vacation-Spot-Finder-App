@@ -58,6 +58,16 @@ fun ImageCard(
                     )
             )
 
+            //text
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(12.dp), //so it's not completely at the bottom
+                contentAlignment = Alignment.BottomStart
+            ){
+                Text(contentDescription, style = TextStyle(color = Color.White), fontSize = 16.sp)
+            }
+
 
         }
     }
