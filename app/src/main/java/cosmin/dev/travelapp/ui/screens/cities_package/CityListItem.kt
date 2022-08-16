@@ -77,5 +77,7 @@ fun CityListItem(citiesData: CitiesData, navController: NavController, name: Str
                 contentDescription = citiesData.cityName
             )
         }
+
+        Spacer(modifier = Modifier.height(16.dp))
     }
 }

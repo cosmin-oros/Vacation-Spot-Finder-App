@@ -18,6 +18,27 @@ object ListOfCities {
                 country = "Afghanistan",
                 continent = "Asia",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.tirana,
+                cityName = "Tirana",
+                country = "Albania",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.durres,
+                cityName = "Durres",
+                country = "Albania",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.berat,
+                cityName = "Berat",
+                country = "Albania",
+                continent = "Europe",
+                firstCity = 0
             )
         )
     }
