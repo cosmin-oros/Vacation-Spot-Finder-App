@@ -78,7 +78,7 @@ fun CountryListItem(countriesData: CountriesData, navController: NavController, 
                 shape = RoundedCornerShape(corner = CornerSize(16.dp)),
                 onClick = {
                     //need to pass an argument to know what continent its on
-                    /*navController.navigate(Screen.CitiesScreen.withArgs(countriesData.country))*/
+                    navController.navigate(Screen.CitiesScreen.withArgs(countriesData.country))
                 }
             ) {
                 Row {
