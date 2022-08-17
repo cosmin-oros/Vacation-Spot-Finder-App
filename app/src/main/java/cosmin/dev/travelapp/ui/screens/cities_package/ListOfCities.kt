@@ -74,6 +74,69 @@ object ListOfCities {
                 country = "Andorra",
                 continent = "Europe",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.luanda,
+                cityName = "Luanda",
+                country = "Angola",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.kissama,
+                cityName = "Kissama National Park",
+                country = "Angola",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.stjohns,
+                cityName = "St. John's",
+                country = "Antigua and Barbuda",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.englishharbour,
+                cityName = "English Harbour",
+                country = "Antigua and Barbuda",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.buenosaires,
+                cityName = "Buenos Aires",
+                country = "Argentina",
+                continent = "South America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.mendoza,
+                cityName = "Mendoza",
+                country = "Argentina",
+                continent = "South America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.ushuaia,
+                cityName = "Ushuaia",
+                country = "Argentina",
+                continent = "South America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.cordoba,
+                cityName = "Cordoba",
+                country = "Argentina",
+                continent = "South America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.rosario,
+                cityName = "Rosario",
+                country = "Argentina",
+                continent = "South America",
+                firstCity = 0
             )
         )
     }
