@@ -270,6 +270,83 @@ object ListOfCities {
                 country = "Bangladesh",
                 continent = "Asia",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.bridgetown,
+                cityName = "Bridgetown",
+                country = "Barbados",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.oistins,
+                cityName = "Oistins",
+                country = "Barbados",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.minsk,
+                cityName = "Minsk",
+                country = "Belarus",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.brest,
+                cityName = "Brest",
+                country = "Belarus",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.antwerp,
+                cityName = "Antwerp",
+                country = "Belgium",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.ghent,
+                cityName = "Ghent",
+                country = "Belgium",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.brussels,
+                cityName = "Brussels",
+                country = "Belgium",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.bruges,
+                cityName = "Bruges",
+                country = "Belgium",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.liege,
+                cityName = "Liege",
+                country = "Belgium",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.belmopan,
+                cityName = "Belmopan",
+                country = "Belize",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.belizecity,
+                cityName = "Belize City",
+                country = "Belize",
+                continent = "North America",
+                firstCity = 1
             )
 
         )
