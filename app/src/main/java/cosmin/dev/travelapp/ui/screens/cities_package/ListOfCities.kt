@@ -228,6 +228,48 @@ object ListOfCities {
                 country = "Azerbaijan",
                 continent = "Asia",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.nassau,
+                cityName = "Nassau",
+                country = "Bahamas",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.freeport,
+                cityName = "Freeport",
+                country = "Bahamas",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.manama,
+                cityName = "Manama",
+                country = "Bahrain",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.dacca,
+                cityName = "Dacca",
+                country = "Bangladesh",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.chattogram,
+                cityName = "Chattogram",
+                country = "Bangladesh",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.rajshahi,
+                cityName = "Rajshahi",
+                country = "Bangladesh",
+                continent = "Asia",
+                firstCity = 0
             )
 
         )
