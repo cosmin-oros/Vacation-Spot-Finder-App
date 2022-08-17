@@ -137,7 +137,99 @@ object ListOfCities {
                 country = "Argentina",
                 continent = "South America",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.yerevan,
+                cityName = "Yerevan",
+                country = "Armenia",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.gyumri,
+                cityName = "Gyumri",
+                country = "Armenia",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.sydney,
+                cityName = "Sydney",
+                country = "Australia",
+                continent = "Oceania",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.goldcoast,
+                cityName = "Gold Coast",
+                country = "Australia",
+                continent = "Oceania",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.melbourne,
+                cityName = "Melbourne",
+                country = "Australia",
+                continent = "Oceania",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.adelaide,
+                cityName = "Adelaide",
+                country = "Australia",
+                continent = "Oceania",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.brisbane,
+                cityName = "Brisbane",
+                country = "Australia",
+                continent = "Oceania",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.vienna,
+                cityName = "Vienna",
+                country = "Austria",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.salzburg,
+                cityName = "Salzburg",
+                country = "Austria",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.innsbruck,
+                cityName = "Innsbruck",
+                country = "Austria",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.bregenz,
+                cityName = "Bregenz",
+                country = "Austria",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.baku,
+                cityName = "Baku",
+                country = "Azerbaijan",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.shamakhi,
+                cityName = "Shamakhi",
+                country = "Azerbaijan",
+                continent = "Asia",
+                firstCity = 0
             )
+
         )
     }
 }

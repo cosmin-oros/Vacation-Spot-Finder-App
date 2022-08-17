@@ -57,7 +57,7 @@ object ListOfCountries {
                 ),
                 CountriesData(
                     country = "Armenia",
-                    capital = "Erevan",
+                    capital = "Yerevan",
                     flagId = R.drawable.armenia,
                     continent = "Asia",
                     safety = 60
