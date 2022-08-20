@@ -480,6 +480,41 @@ object ListOfCities {
                 country = "Bulgaria",
                 continent = "Europe",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.ouagadougou,
+                cityName = "Ouagadougou",
+                country = "Burkina Faso",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.bobodioulasso,
+                cityName = "Bobo Dioulasso",
+                country = "Burkina Faso",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.bujumbura,
+                cityName = "Bujumbura",
+                country = "Burundi",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.sal,
+                cityName = "Sal",
+                country = "Cabo Verde",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.palmeira,
+                cityName = "Palmeira",
+                country = "Cabo Verde",
+                continent = "Africa",
+                firstCity = 0
             )
 
         )
