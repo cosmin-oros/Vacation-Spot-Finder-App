@@ -396,6 +396,62 @@ object ListOfCities {
                 country = "Bolivia",
                 continent = "South America",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.sarajevo,
+                cityName = "Sarajevo",
+                country = "Bosnia and Herzegovina",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.mostar,
+                cityName = "Mostar",
+                country = "Bosnia and Herzegovina",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.banjaluka,
+                cityName = "Banja Luka",
+                country = "Bosnia and Herzegovina",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.gaborone,
+                cityName = "Gaborone",
+                country = "Botswana",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.palapye,
+                cityName = "Palapye",
+                country = "Botswana",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.rio,
+                cityName = "Rio De Janeiro",
+                country = "Brazil",
+                continent = "South America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.saopaulo,
+                cityName = "Sao Paulo",
+                country = "Brazil",
+                continent = "South America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.salvadordebahia,
+                cityName = "Salvador de Bahia",
+                country = "Brazil",
+                continent = "South America",
+                firstCity = 0
             )
 
         )
