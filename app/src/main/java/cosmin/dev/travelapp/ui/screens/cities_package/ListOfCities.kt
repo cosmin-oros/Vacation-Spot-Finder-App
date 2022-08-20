@@ -557,6 +557,41 @@ object ListOfCities {
                 country = "Canada",
                 continent = "North America",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.bangui,
+                cityName = "Bangui",
+                country = "Central African Republic",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.ndjamena,
+                cityName = "N'Djamena",
+                country = "Chad",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.santiago,
+                cityName = "Santiago",
+                country = "Chile",
+                continent = "South America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.iquique,
+                cityName = "Iquique",
+                country = "Chile",
+                continent = "South America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.valparaiso,
+                cityName = "Valparaiso",
+                country = "Chile",
+                continent = "South America",
+                firstCity = 0
             )
 
         )
