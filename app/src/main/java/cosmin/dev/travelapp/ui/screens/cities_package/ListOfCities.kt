@@ -515,6 +515,48 @@ object ListOfCities {
                 country = "Cabo Verde",
                 continent = "Africa",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.phnompenh,
+                cityName = "Phnom Penh",
+                country = "Cambodia",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.siemreap,
+                cityName = "Siem Reap",
+                country = "Cambodia",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.yaounde,
+                cityName = "Yaounde",
+                country = "Cameroon",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.toronto,
+                cityName = "Toronto",
+                country = "Canada",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.quebec,
+                cityName = "Quebec City",
+                country = "Canada",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.vancouver,
+                cityName = "Vancouver",
+                country = "Canada",
+                continent = "North America",
+                firstCity = 0
             )
 
         )
