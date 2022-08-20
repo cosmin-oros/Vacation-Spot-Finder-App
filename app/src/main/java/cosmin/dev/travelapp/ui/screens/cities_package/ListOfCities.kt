@@ -346,7 +346,56 @@ object ListOfCities {
                 cityName = "Belize City",
                 country = "Belize",
                 continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.portonovo,
+                cityName = "Porto Novo",
+                country = "Benin",
+                continent = "Africa",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.ouidah,
+                cityName = "Ouidah",
+                country = "Benin",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.paro,
+                cityName = "Paro",
+                country = "Bhutan",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.thimphu,
+                cityName = "Thimphu",
+                country = "Bhutan",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.sucre,
+                cityName = "Sucre",
+                country = "Bolivia",
+                continent = "South America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.lapaz,
+                cityName = "La Paz",
+                country = "Bolivia",
+                continent = "South America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.uyuni,
+                cityName = "Uyuni",
+                country = "Bolivia",
+                continent = "South America",
+                firstCity = 0
             )
 
         )
