@@ -452,6 +452,34 @@ object ListOfCities {
                 country = "Brazil",
                 continent = "South America",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.bandarseribegawan,
+                cityName = "Bandar Seri Begawan",
+                country = "Brunei",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.sofia,
+                cityName = "Sofia",
+                country = "Bulgaria",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.varna,
+                cityName = "Varna",
+                country = "Bulgaria",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.burgas,
+                cityName = "Burgas",
+                country = "Bulgaria",
+                continent = "Europe",
+                firstCity = 0
             )
 
         )
