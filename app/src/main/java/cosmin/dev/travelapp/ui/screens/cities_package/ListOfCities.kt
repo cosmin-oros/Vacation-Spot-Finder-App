@@ -739,6 +739,34 @@ object ListOfCities {
                 country = "Cyprus",
                 continent = "Europe",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.prague,
+                cityName = "Prague",
+                country = "Czech Republic",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.brno,
+                cityName = "Brno",
+                country = "Czech Republic",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.ostrava,
+                cityName = "Ostrava",
+                country = "Czech Republic",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.kinshasa,
+                cityName = "Kinshasa",
+                country = "Democratic Republic of Congo",
+                continent = "Africa",
+                firstCity = 1
             )
 
         )
