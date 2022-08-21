@@ -592,6 +592,48 @@ object ListOfCities {
                 country = "Chile",
                 continent = "South America",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.beijing,
+                cityName = "Beijing",
+                country = "China",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.shanghai,
+                cityName = "Shanghai",
+                country = "China",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.guangzhou,
+                cityName = "Guangzhou",
+                country = "China",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.bogota,
+                cityName = "Bogota",
+                country = "Colombia",
+                continent = "South America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.medellin,
+                cityName = "Medellin",
+                country = "Colombia",
+                continent = "South America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.cali,
+                cityName = "Cali",
+                country = "Colombia",
+                continent = "South America",
+                firstCity = 0
             )
 
         )
