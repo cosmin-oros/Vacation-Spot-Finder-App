@@ -767,6 +767,48 @@ object ListOfCities {
                 country = "Democratic Republic of Congo",
                 continent = "Africa",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.copenhagen,
+                cityName = "Copenhagen",
+                country = "Denmark",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.aarhus,
+                cityName = "Aarhus",
+                country = "Denmark",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.odense,
+                cityName = "Odense",
+                country = "Denmark",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.djibouti,
+                cityName = "Djibouti",
+                country = "Djibouti",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.roseau,
+                cityName = "Roseau",
+                country = "Dominica",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.portsmouth,
+                cityName = "Portsmouth",
+                country = "Dominica",
+                continent = "North America",
+                firstCity = 0
             )
 
         )
