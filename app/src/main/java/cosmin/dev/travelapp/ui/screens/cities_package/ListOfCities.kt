@@ -634,6 +634,41 @@ object ListOfCities {
                 country = "Colombia",
                 continent = "South America",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.moroni,
+                cityName = "Moroni",
+                country = "Comoros",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.moheli,
+                cityName = "Moheli",
+                country = "Comoros",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.brazzaville,
+                cityName = "Brazzaville",
+                country = "Congo",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.sanjose,
+                cityName = "San Jose",
+                country = "Costa Rica",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.puertoviejo,
+                cityName = "Puerto Viejo",
+                country = "Costa Rica",
+                continent = "North America",
+                firstCity = 0
             )
 
         )
