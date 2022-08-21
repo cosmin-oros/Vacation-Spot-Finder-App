@@ -670,6 +670,76 @@ object ListOfCities {
                 continent = "North America",
                 firstCity = 0
             ),
+            CitiesData(
+                imgRes = R.drawable.dubrovnik,
+                cityName = "Dubrovnik",
+                country = "Croatia",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.zagreb,
+                cityName = "Zagreb",
+                country = "Croatia",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.split,
+                cityName = "Split",
+                country = "Croatia",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.havana,
+                cityName = "Havana",
+                country = "Cuba",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.trinidad,
+                cityName = "Trinidad",
+                country = "Cuba",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.varadero,
+                cityName = "Varadero",
+                country = "Cuba",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.paphos,
+                cityName = "Paphos",
+                country = "Cyprus",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.ayianapa,
+                cityName = "Ayia Napa",
+                country = "Cyprus",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.limassol,
+                cityName = "Limassol",
+                country = "Cyprus",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.nicosia,
+                cityName = "Nicosia",
+                country = "Cyprus",
+                continent = "Europe",
+                firstCity = 0
+            )
 
         )
     }
