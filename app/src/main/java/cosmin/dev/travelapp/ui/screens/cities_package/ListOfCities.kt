@@ -669,7 +669,7 @@ object ListOfCities {
                 country = "Costa Rica",
                 continent = "North America",
                 firstCity = 0
-            )
+            ),
 
         )
     }
