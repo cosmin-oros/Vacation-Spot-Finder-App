@@ -872,6 +872,34 @@ object ListOfCities {
                 country = "El Salvador",
                 continent = "North America",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.malabo,
+                cityName = "Malabo",
+                country = "Equatorial Guinea",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.asmara,
+                cityName = "Asmara",
+                country = "Eritrea",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.tallinn,
+                cityName = "Tallinn",
+                country = "Estonia",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.tartu,
+                cityName = "Tartu",
+                country = "Estonia",
+                continent = "Europe",
+                firstCity = 1
             )
 
         )
