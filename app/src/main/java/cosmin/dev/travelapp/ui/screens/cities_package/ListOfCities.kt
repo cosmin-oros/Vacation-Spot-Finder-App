@@ -809,6 +809,34 @@ object ListOfCities {
                 country = "Dominica",
                 continent = "North America",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.santodomingo,
+                cityName = "Santo Domingo",
+                country = "Dominican Republic",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.puntacana,
+                cityName = "Punta Cana",
+                country = "Dominican Republic",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.quito,
+                cityName = "Quito",
+                country = "Ecuador",
+                continent = "South America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.cuenca,
+                cityName = "Cuenca",
+                country = "Ecuador",
+                continent = "South America",
+                firstCity = 0
             )
 
         )
