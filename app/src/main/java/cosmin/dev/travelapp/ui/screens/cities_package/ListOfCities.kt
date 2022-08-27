@@ -899,7 +899,28 @@ object ListOfCities {
                 cityName = "Tartu",
                 country = "Estonia",
                 continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.mbabane,
+                cityName = "Mbabane",
+                country = "Eswatini",
+                continent = "Africa",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.addisabeba,
+                cityName = "Addis Abeba",
+                country = "Ethiopia",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.bahirdar,
+                cityName = "Bahir Dar",
+                country = "Ethiopia",
+                continent = "Africa",
+                firstCity = 0
             )
 
         )
