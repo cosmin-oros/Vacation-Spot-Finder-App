@@ -837,6 +837,41 @@ object ListOfCities {
                 country = "Ecuador",
                 continent = "South America",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.cairo,
+                cityName = "Cairo",
+                country = "Egypt",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.alexandria,
+                cityName = "Alexandria",
+                country = "Egypt",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.luxor,
+                cityName = "Luxor",
+                country = "Egypt",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.sansalvador,
+                cityName = "San Salvador",
+                country = "El Salvador",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.santaana,
+                cityName = "Santa Ana",
+                country = "El Salvador",
+                continent = "North America",
+                firstCity = 0
             )
 
         )
