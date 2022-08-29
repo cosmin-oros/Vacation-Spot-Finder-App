@@ -921,6 +921,76 @@ object ListOfCities {
                 country = "Ethiopia",
                 continent = "Africa",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.suva,
+                cityName = "Suva",
+                country = "Fiji",
+                continent = "Oceania",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.nadi,
+                cityName = "Nadi",
+                country = "Fiji",
+                continent = "Oceania",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.helsinki,
+                cityName = "Helsinki",
+                country = "Finland",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.oulu,
+                cityName = "Oulu",
+                country = "Finland",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.rovaniemi,
+                cityName = "Rovaniemi",
+                country = "Finland",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.paris,
+                cityName = "Paris",
+                country = "France",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.bordeaux,
+                cityName = "Bordeaux",
+                country = "France",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.nice,
+                cityName = "Nice",
+                country = "France",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.lyon,
+                cityName = "Lyon",
+                country = "France",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.strasbourg,
+                cityName = "Strasbourg",
+                country = "France",
+                continent = "Europe",
+                firstCity = 0
             )
 
         )
