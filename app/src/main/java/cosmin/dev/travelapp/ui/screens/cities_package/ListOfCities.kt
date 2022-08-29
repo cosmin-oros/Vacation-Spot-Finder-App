@@ -991,6 +991,34 @@ object ListOfCities {
                 country = "France",
                 continent = "Europe",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.libreville,
+                cityName = "Libreville",
+                country = "Gabon",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.banjul,
+                cityName = "Banjul",
+                country = "Gambia",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.tbilisi,
+                cityName = "Tbilisi",
+                country = "Georgia",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.kutaisi,
+                cityName = "Kutaisi",
+                country = "Georgia",
+                continent = "Europe",
+                firstCity = 0
             )
 
         )
