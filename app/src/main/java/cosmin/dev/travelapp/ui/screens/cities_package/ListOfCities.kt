@@ -1089,6 +1089,34 @@ object ListOfCities {
                 country = "Greece",
                 continent = "Europe",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.stgeorges,
+                cityName = "St. George's",
+                country = "Grenada",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.guatemalacity,
+                cityName = "Ciudad de Guatemala",
+                country = "Guatemala",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.antiguaguatemala,
+                cityName = "Antigua Guatemala",
+                country = "Guatemala",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.conakry,
+                cityName = "Conakry",
+                country = "Guinea",
+                continent = "Africa",
+                firstCity = 1
             )
 
         )
