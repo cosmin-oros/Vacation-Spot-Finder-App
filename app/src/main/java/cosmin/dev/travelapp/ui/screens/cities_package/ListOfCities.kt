@@ -1010,13 +1010,83 @@ object ListOfCities {
                 imgRes = R.drawable.tbilisi,
                 cityName = "Tbilisi",
                 country = "Georgia",
-                continent = "Europe",
+                continent = "Asia",
                 firstCity = 1
             ),
             CitiesData(
                 imgRes = R.drawable.kutaisi,
                 cityName = "Kutaisi",
                 country = "Georgia",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.berlin,
+                cityName = "Berlin",
+                country = "Germany",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.frankfurt,
+                cityName = "Frankfurt",
+                country = "Germany",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.hamburg,
+                cityName = "Hamburg",
+                country = "Germany",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.munich,
+                cityName = "Munich",
+                country = "Germany",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.cologne,
+                cityName = "Cologne",
+                country = "Germany",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.accra,
+                cityName = "Accra",
+                country = "Ghana",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.athens,
+                cityName = "Athens",
+                country = "Greece",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.thessaloniki,
+                cityName = "Thessaloniki",
+                country = "Greece",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.patras,
+                cityName = "Patras",
+                country = "Greece",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.heraklion,
+                cityName = "Heraklion",
+                country = "Greece",
                 continent = "Europe",
                 firstCity = 0
             )
