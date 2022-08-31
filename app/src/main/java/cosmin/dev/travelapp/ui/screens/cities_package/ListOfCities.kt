@@ -1145,6 +1145,55 @@ object ListOfCities {
                 country = "Haiti",
                 continent = "North America",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.tegucigalpa,
+                cityName = "Tegucigalpa",
+                country = "Honduras",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.sanpedrosula,
+                cityName = "San Pedro Sula",
+                country = "Honduras",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.budapest,
+                cityName = "Budapest",
+                country = "Hungary",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.szeged,
+                cityName = "Szeged",
+                country = "Hungary",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.siofok,
+                cityName = "Siofok",
+                country = "Hungary",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.reykjavik,
+                cityName = "Reykjavik",
+                country = "Iceland",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.akureyri,
+                cityName = "Akureyri",
+                country = "Iceland",
+                continent = "Europe",
+                firstCity = 0
             )
 
         )
