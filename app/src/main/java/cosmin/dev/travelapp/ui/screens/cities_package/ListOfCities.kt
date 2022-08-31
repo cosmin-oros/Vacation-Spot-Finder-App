@@ -1117,6 +1117,34 @@ object ListOfCities {
                 country = "Guinea",
                 continent = "Africa",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.bissau,
+                cityName = "Bissau",
+                country = "Guinea Bissau",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.georgetown,
+                cityName = "Georgetown",
+                country = "Guyana",
+                continent = "South America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.labadee,
+                cityName = "Labadee",
+                country = "Haiti",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.portauprince,
+                cityName = "Port au Prince",
+                country = "Haiti",
+                continent = "North America",
+                firstCity = 0
             )
 
         )
