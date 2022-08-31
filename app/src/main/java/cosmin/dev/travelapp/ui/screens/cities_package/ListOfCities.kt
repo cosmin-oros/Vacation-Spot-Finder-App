@@ -1194,6 +1194,69 @@ object ListOfCities {
                 country = "Iceland",
                 continent = "Europe",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.mumbai,
+                cityName = "Mumbai",
+                country = "India",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.agra,
+                cityName = "Agra",
+                country = "India",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.jaipur,
+                cityName = "Jaipur",
+                country = "India",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.jakarta,
+                cityName = "Jakarta",
+                country = "Indonesia",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.ubud,
+                cityName = "Ubud",
+                country = "Indonesia",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.yogyakarta,
+                cityName = "Yogyakarta",
+                country = "Indonesia",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.kuta,
+                cityName = "Kuta",
+                country = "Indonesia",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.tehran,
+                cityName = "Tehran",
+                country = "Iran",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.esfahan,
+                cityName = "Esfahan",
+                country = "Iran",
+                continent = "Asia",
+                firstCity = 0
             )
 
         )
