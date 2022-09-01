@@ -1306,6 +1306,62 @@ object ListOfCities {
                 country = "Israel",
                 continent = "Asia",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.rome,
+                cityName = "Rome",
+                country = "Italy",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.milan,
+                cityName = "Milan",
+                country = "Italy",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.venice,
+                cityName = "Venice",
+                country = "Italy",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.bologna,
+                cityName = "Bologna",
+                country = "Italy",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.florence,
+                cityName = "Florence",
+                country = "Italy",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.yamoussoukro,
+                cityName = "Yamoussoukro",
+                country = "Ivory Coast",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.kingston,
+                cityName = "Kingston",
+                country = "Jamaica",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.montegobay,
+                cityName = "Montego Bay",
+                country = "Jamaica",
+                continent = "North America",
+                firstCity = 0
             )
 
         )
