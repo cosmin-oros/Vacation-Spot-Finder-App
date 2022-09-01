@@ -1383,6 +1383,41 @@ object ListOfCities {
                 country = "Japan",
                 continent = "Asia",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.amman,
+                cityName = "Amman",
+                country = "Jordan",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.aqaba,
+                cityName = "Aqaba",
+                country = "Jordan",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.nursultan,
+                cityName = "Nur-Sultan",
+                country = "Kazakhstan",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.nairobi,
+                cityName = "Nairobi",
+                country = "Kenya",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.mombasa,
+                cityName = "Mombasa",
+                country = "Kenya",
+                continent = "Africa",
+                firstCity = 0
             )
 
         )
