@@ -1257,6 +1257,55 @@ object ListOfCities {
                 country = "Iran",
                 continent = "Asia",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.baghdad,
+                cityName = "Baghdad",
+                country = "Iraq",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.samarra,
+                cityName = "Samarra",
+                country = "Iraq",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.dublin,
+                cityName = "Dublin",
+                country = "Ireland",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.limerick,
+                cityName = "Limerick",
+                country = "Ireland",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.galway,
+                cityName = "Galway",
+                country = "Ireland",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.telaviv,
+                cityName = "Tel Aviv",
+                country = "Israel",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.jerusalem,
+                cityName = "Jerusalem",
+                country = "Israel",
+                continent = "Asia",
+                firstCity = 0
             )
 
         )

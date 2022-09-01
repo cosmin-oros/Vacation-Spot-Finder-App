@@ -554,7 +554,7 @@ object ListOfCountries {
                 ),
                 CountriesData(
                     country = "Iraq",
-                    capital = "Bagdad",
+                    capital = "Baghdad",
                     flagId = R.drawable.iraq,
                     continent = "Asia",
                     safety = 14
