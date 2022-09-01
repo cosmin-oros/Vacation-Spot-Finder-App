@@ -1362,6 +1362,27 @@ object ListOfCities {
                 country = "Jamaica",
                 continent = "North America",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.tokyo,
+                cityName = "Tokyo",
+                country = "Japan",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.osaka,
+                cityName = "Osaka",
+                country = "Japan",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.kyoto,
+                cityName = "Kyoto",
+                country = "Japan",
+                continent = "Asia",
+                firstCity = 0
             )
 
         )
