@@ -1446,6 +1446,62 @@ object ListOfCities {
                 country = "Kyrgyzstan",
                 continent = "Asia",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.vientiane,
+                cityName = "Vientiane",
+                country = "Laos",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.luangprabang,
+                cityName = "Luang Prabang",
+                country = "Laos",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.riga,
+                cityName = "Riga",
+                country = "Latvia",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.liepaja,
+                cityName = "Liepaja",
+                country = "Latvia",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.beirut,
+                cityName = "Beirut",
+                country = "Lebanon",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.sidon,
+                cityName = "Sidon",
+                country = "Lebanon",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.tripoli,
+                cityName = "Tripoli",
+                country = "Lebanon",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.maseru,
+                cityName = "Maseru",
+                country = "Lesotho",
+                continent = "Africa",
+                firstCity = 1
             )
 
         )
