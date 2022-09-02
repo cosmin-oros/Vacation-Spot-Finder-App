@@ -1418,6 +1418,34 @@ object ListOfCities {
                 country = "Kenya",
                 continent = "Africa",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.tarawa,
+                cityName = "Tarawa",
+                country = "Kiribati",
+                continent = "Oceania",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.alkuwait,
+                cityName = "Al-Kuwait",
+                country = "Kuwait",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.hawalli,
+                cityName = "Hawalli",
+                country = "Kuwait",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.bishkek,
+                cityName = "Bishkek",
+                country = "Kyrgyzstan",
+                continent = "Asia",
+                firstCity = 1
             )
 
         )
