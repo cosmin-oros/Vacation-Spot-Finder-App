@@ -1600,6 +1600,34 @@ object ListOfCities {
                 country = "Mali",
                 continent = "Africa",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.valletta,
+                cityName = "Valletta",
+                country = "Malta",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.stpaulsbay,
+                cityName = "St. Paul's Bay",
+                country = "Malta",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.majuro,
+                cityName = "Majuro",
+                country = "Marshall Islands",
+                continent = "Oceania",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.nouakchott,
+                cityName = "Nouakchott",
+                country = "Mauritania",
+                continent = "Africa",
+                firstCity = 1
             )
 
         )
