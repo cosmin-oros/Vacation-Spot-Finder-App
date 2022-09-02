@@ -1502,6 +1502,34 @@ object ListOfCities {
                 country = "Lesotho",
                 continent = "Africa",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.monrovia,
+                cityName = "Monrovia",
+                country = "Liberia",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.tripoli2,
+                cityName = "Tripoli",
+                country = "Libya",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.sabratha,
+                cityName = "Sabratha",
+                country = "Libya",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.vaduz,
+                cityName = "Vaduz",
+                country = "Liechtenstein",
+                continent = "Europe",
+                firstCity = 1
             )
 
         )
