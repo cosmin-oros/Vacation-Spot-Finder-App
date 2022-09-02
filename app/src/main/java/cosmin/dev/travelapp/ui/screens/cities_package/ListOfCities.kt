@@ -780,7 +780,7 @@ object ListOfCities {
                 cityName = "Aarhus",
                 country = "Denmark",
                 continent = "Europe",
-                firstCity = 1
+                firstCity = 0
             ),
             CitiesData(
                 imgRes = R.drawable.odense,
@@ -790,7 +790,7 @@ object ListOfCities {
                 firstCity = 0
             ),
             CitiesData(
-                imgRes = R.drawable.djibouti,
+                imgRes = R.drawable.djibouticity,
                 cityName = "Djibouti",
                 country = "Djibouti",
                 continent = "Africa",
@@ -1546,7 +1546,7 @@ object ListOfCities {
                 firstCity = 0
             ),
             CitiesData(
-                imgRes = R.drawable.luxembourg,
+                imgRes = R.drawable.luxembourgcity,
                 cityName = "Luxembourg",
                 country = "Luxembourg",
                 continent = "Europe",
@@ -1683,6 +1683,34 @@ object ListOfCities {
                 cityName = "Palikir",
                 country = "Micronesia",
                 continent = "Oceania",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.chisinau,
+                cityName = "Chisinau",
+                country = "Moldova",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.tiraspol,
+                cityName = "Tiraspol",
+                country = "Moldova",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.monacocity,
+                cityName = "Monaco",
+                country = "Monaco",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.ulaanbaatar,
+                cityName = "Ulaanbaatar",
+                country = "Mongolia",
+                continent = "Asia",
                 firstCity = 1
             )
 
