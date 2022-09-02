@@ -1558,6 +1558,48 @@ object ListOfCities {
                 country = "Madagascar",
                 continent = "Africa",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.lilongwe,
+                cityName = "Lilongwe",
+                country = "Malawi",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.kualalumpur,
+                cityName = "Kuala Lumpur",
+                country = "Malaysia",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.kualaterengganu,
+                cityName = "Kuala Terengganu",
+                country = "Malaysia",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.malacca,
+                cityName = "Malacca",
+                country = "Malaysia",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.male,
+                cityName = "Male",
+                country = "Maldives",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.bamako,
+                cityName = "Bamako",
+                country = "Mali",
+                continent = "Africa",
+                firstCity = 1
             )
 
         )
