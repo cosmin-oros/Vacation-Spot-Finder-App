@@ -1530,6 +1530,34 @@ object ListOfCities {
                 country = "Liechtenstein",
                 continent = "Europe",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.vilnius,
+                cityName = "Vilnius",
+                country = "Lithuania",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.kaunas,
+                cityName = "Kaunas",
+                country = "Lithuania",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.luxembourg,
+                cityName = "Luxembourg",
+                country = "Luxembourg",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.antananarivo,
+                cityName = "Antananarivo",
+                country = "Madagascar",
+                continent = "Africa",
+                firstCity = 1
             )
 
         )
