@@ -1712,6 +1712,76 @@ object ListOfCities {
                 country = "Mongolia",
                 continent = "Asia",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.kotor,
+                cityName = "Kotor",
+                country = "Montenegro",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.budva,
+                cityName = "Budva",
+                country = "Montenegro",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.podgorica,
+                cityName = "Podgorica",
+                country = "Montenegro",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.marrakech,
+                cityName = "Marrakech",
+                country = "Morocco",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.fez,
+                cityName = "Fez",
+                country = "Morocco",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.casablanca,
+                cityName = "Casablanca",
+                country = "Morocco",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.rabat,
+                cityName = "Rabat",
+                country = "Morocco",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.maputo,
+                cityName = "Maputo",
+                country = "Mozambique",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.pemba,
+                cityName = "Pemba",
+                country = "Mozambique",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.inhambane,
+                cityName = "Inhambane",
+                country = "Mozambique",
+                continent = "Africa",
+                firstCity = 0
             )
 
         )
