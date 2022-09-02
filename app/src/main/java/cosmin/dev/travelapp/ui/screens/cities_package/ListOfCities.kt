@@ -1782,6 +1782,55 @@ object ListOfCities {
                 country = "Mozambique",
                 continent = "Africa",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.naypyidaw,
+                cityName = "Naypyidaw",
+                country = "Myanmar",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.rangoon,
+                cityName = "Rangoon",
+                country = "Myanmar",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.bago,
+                cityName = "Bago",
+                country = "Myanmar",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.windhoek,
+                cityName = "Windhoek",
+                country = "Namibia",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.yaren,
+                cityName = "Yaren",
+                country = "Nauru",
+                continent = "Oceania",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.kathmandu,
+                cityName = "Kathmandu",
+                country = "Nepal",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.pokhara,
+                cityName = "Pokhara",
+                country = "Nepal",
+                continent = "Asia",
+                firstCity = 0
             )
 
         )
