@@ -1628,6 +1628,62 @@ object ListOfCities {
                 country = "Mauritania",
                 continent = "Africa",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.portlouis,
+                cityName = "Port Louis",
+                country = "Mauritius",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.flicenflac,
+                cityName = "Flic en Flac",
+                country = "Mauritius",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.mexicocity,
+                cityName = "Ciudad de Mexico",
+                country = "Mexico",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.oaxaca,
+                cityName = "Oaxaca",
+                country = "Mexico",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.cabosanlucas,
+                cityName = "Cabo San Lucas",
+                country = "Mexico",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.cancun,
+                cityName = "Cancun",
+                country = "Mexico",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.guadalajara,
+                cityName = "Guadalajara",
+                country = "Mexico",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.palikir,
+                cityName = "Palikir",
+                country = "Micronesia",
+                continent = "Oceania",
+                firstCity = 1
             )
 
         )
