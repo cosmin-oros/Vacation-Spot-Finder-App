@@ -2006,6 +2006,34 @@ object ListOfCities {
                 country = "Pakistan",
                 continent = "Asia",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.ngerulmud,
+                cityName = "Ngerulmud",
+                country = "Palau",
+                continent = "Oceania",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.panamacity,
+                cityName = "Ciudad de Panama",
+                country = "Panama",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.colon,
+                cityName = "Colon",
+                country = "Panama",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.portmoresby,
+                cityName = "Port Moresby",
+                country = "Papua New Guinea",
+                continent = "Asia",
+                firstCity = 1
             )
 
         )
