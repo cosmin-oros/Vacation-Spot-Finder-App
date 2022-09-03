@@ -1831,6 +1831,90 @@ object ListOfCities {
                 country = "Nepal",
                 continent = "Asia",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.amsterdam,
+                cityName = "Amsterdam",
+                country = "Netherlands",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.thehague,
+                cityName = "The Hague",
+                country = "Netherlands",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.rotterdam,
+                cityName = "Rotterdam",
+                country = "Netherlands",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.utrecht,
+                cityName = "Utrecht",
+                country = "Netherlands",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.eindhoven,
+                cityName = "Eindhoven",
+                country = "Netherlands",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.auckland,
+                cityName = "Auckland",
+                country = "New Zealand",
+                continent = "Oceania",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.wellington,
+                cityName = "Wellington",
+                country = "New Zealand",
+                continent = "Oceania",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.queenstown,
+                cityName = "Queenstown",
+                country = "New Zealand",
+                continent = "Oceania",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.christchurch,
+                cityName = "Christchurch",
+                country = "New Zealand",
+                continent = "Oceania",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.granada,
+                cityName = "Granada",
+                country = "Nicaragua",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.leon,
+                cityName = "Leon",
+                country = "Nicaragua",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.littlecorn,
+                cityName = "Little Corn",
+                country = "Nicaragua",
+                continent = "North America",
+                firstCity = 0
             )
 
         )
