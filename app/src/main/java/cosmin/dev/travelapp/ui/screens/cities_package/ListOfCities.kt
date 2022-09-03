@@ -1950,6 +1950,62 @@ object ListOfCities {
                 country = "North Macedonia",
                 continent = "Europe",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.oslo,
+                cityName = "Oslo",
+                country = "Norway",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.bergen,
+                cityName = "Bergen",
+                country = "Norway",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.tromso,
+                cityName = "Tromso",
+                country = "Norway",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.muscat,
+                cityName = "Muscat",
+                country = "Oman",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.salalah,
+                cityName = "Salalah",
+                country = "Oman",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.islamabad,
+                cityName = "Islamabad",
+                country = "Pakistan",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.karachi,
+                cityName = "Karachi",
+                country = "Pakistan",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.lahore,
+                cityName = "Lahore",
+                country = "Pakistan",
+                continent = "Asia",
+                firstCity = 0
             )
 
         )
