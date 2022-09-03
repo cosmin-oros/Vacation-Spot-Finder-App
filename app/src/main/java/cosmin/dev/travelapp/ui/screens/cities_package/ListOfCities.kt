@@ -1915,6 +1915,41 @@ object ListOfCities {
                 country = "Nicaragua",
                 continent = "North America",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.niamey,
+                cityName = "Niamey",
+                country = "Niger",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.lagos,
+                cityName = "Lagos",
+                country = "Nigeria",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.abuja,
+                cityName = "Abuja",
+                country = "Nigeria",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.skopje,
+                cityName = "Skopje",
+                country = "North Macedonia",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.ohrida,
+                cityName = "Ohrida",
+                country = "North Macedonia",
+                continent = "Europe",
+                firstCity = 0
             )
 
         )
