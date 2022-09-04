@@ -2223,6 +2223,27 @@ object ListOfCities {
                 country = "Rwanda",
                 continent = "Africa",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.basseterre,
+                cityName = "Basseterre",
+                country = "Saint Kitts and Nevis",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.castries,
+                cityName = "Castries",
+                country = "Saint Lucia",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.kingstown,
+                cityName = "Kingstown",
+                country = "Saint Vincent and the Grenadines",
+                continent = "North America",
+                firstCity = 1
             )
 
         )
