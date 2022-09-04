@@ -2034,6 +2034,62 @@ object ListOfCities {
                 country = "Papua New Guinea",
                 continent = "Asia",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.asuncion,
+                cityName = "Asuncion",
+                country = "Paraguay",
+                continent = "South America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.lima,
+                cityName = "Lima",
+                country = "Peru",
+                continent = "South America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.cuzco,
+                cityName = "Cuzco",
+                country = "Peru",
+                continent = "South America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.manila,
+                cityName = "Manila",
+                country = "Philippines",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.cebu,
+                cityName = "Cebu",
+                country = "Philippines",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.bohol,
+                cityName = "Bohol",
+                country = "Philippines",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.boracay,
+                cityName = "Boracay",
+                country = "Philippines",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.vigan,
+                cityName = "Vigan",
+                country = "Philippines",
+                continent = "Asia",
+                firstCity = 0
             )
 
         )
