@@ -2244,6 +2244,34 @@ object ListOfCities {
                 country = "Saint Vincent and the Grenadines",
                 continent = "North America",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.apia,
+                cityName = "Apia",
+                country = "Samoa",
+                continent = "Oceania",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.savaii,
+                cityName = "Savaii",
+                country = "Samoa",
+                continent = "Oceania",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.sanmarinocity,
+                cityName = "San Marino",
+                country = "San Marino",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.saotome,
+                cityName = "Sao Tome",
+                country = "São Tomé and Príncipe",
+                continent = "Africa",
+                firstCity = 1
             )
 
         )
