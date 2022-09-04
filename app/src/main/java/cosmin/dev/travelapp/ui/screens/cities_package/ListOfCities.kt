@@ -2090,6 +2090,76 @@ object ListOfCities {
                 country = "Philippines",
                 continent = "Asia",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.warsaw,
+                cityName = "Warsaw",
+                country = "Poland",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.gdansk,
+                cityName = "Gdansk",
+                country = "Poland",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.krakow,
+                cityName = "Krakow",
+                country = "Poland",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.poznan,
+                cityName = "Poznan",
+                country = "Poland",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.wroclaw,
+                cityName = "Wroclaw",
+                country = "Poland",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.lisbon,
+                cityName = "Lisbon",
+                country = "Portugal",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.porto,
+                cityName = "Porto",
+                country = "Portugal",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.braga,
+                cityName = "Braga",
+                country = "Portugal",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.sintra,
+                cityName = "Sintra",
+                country = "Portugal",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.doha,
+                cityName = "Doha",
+                country = "Qatar",
+                continent = "Asia",
+                firstCity = 1
             )
 
         )
