@@ -2160,6 +2160,69 @@ object ListOfCities {
                 country = "Qatar",
                 continent = "Asia",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.timisoara,
+                cityName = "Timisoara",
+                country = "Portugal",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.brasov,
+                cityName = "Brasov",
+                country = "Portugal",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.iasi,
+                cityName = "Iasi",
+                country = "Portugal",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.cluj,
+                cityName = "Cluj-Napoca",
+                country = "Portugal",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.bucharest,
+                cityName = "Bucharest",
+                country = "Portugal",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.stpetersburg,
+                cityName = "St. Petersburg",
+                country = "Russia",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.moscow,
+                cityName = "Moscow",
+                country = "Russia",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.sochi,
+                cityName = "Sochi",
+                country = "Russia",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.kigali,
+                cityName = "Kigali",
+                country = "Rwanda",
+                continent = "Africa",
+                firstCity = 1
             )
 
         )
