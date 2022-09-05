@@ -2272,6 +2272,69 @@ object ListOfCities {
                 country = "São Tomé and Príncipe",
                 continent = "Africa",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.riad,
+                cityName = "Riad",
+                country = "Saudi Arabia",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.jeddah,
+                cityName = "Jeddah",
+                country = "Saudi Arabia",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.medina,
+                cityName = "Medina",
+                country = "Saudi Arabia",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.mecca,
+                cityName = "Mecca",
+                country = "Saudi Arabia",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.dakar,
+                cityName = "Dakar",
+                country = "Senegal",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.belgrade,
+                cityName = "Belgrade",
+                country = "Serbia",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.belgrade,
+                cityName = "Novi Sad",
+                country = "Serbia",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.subotica,
+                cityName = "Subotica",
+                country = "Serbia",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.victoria,
+                cityName = "Victoria",
+                country = "Seychelles",
+                continent = "Africa",
+                firstCity = 1
             )
 
         )
