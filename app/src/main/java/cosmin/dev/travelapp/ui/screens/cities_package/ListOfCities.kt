@@ -2335,6 +2335,34 @@ object ListOfCities {
                 country = "Seychelles",
                 continent = "Africa",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.freetown,
+                cityName = "Freetown",
+                country = "Sierra Leone",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.singaporecity,
+                cityName = "Singapore",
+                country = "Singapore",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.bratislava,
+                cityName = "Bratislava",
+                country = "Slovakia",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.kosice,
+                cityName = "Kosice",
+                country = "Slovakia",
+                continent = "Europe",
+                firstCity = 0
             )
 
         )
