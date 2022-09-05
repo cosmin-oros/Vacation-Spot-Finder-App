@@ -2363,6 +2363,41 @@ object ListOfCities {
                 country = "Slovakia",
                 continent = "Europe",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.ljubljana,
+                cityName = "Ljubljana",
+                country = "Slovenia",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.maribor,
+                cityName = "Maribor",
+                country = "Slovenia",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.bled,
+                cityName = "Bled",
+                country = "Slovenia",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.honiara,
+                cityName = "Honiara",
+                country = "Solomon Islands",
+                continent = "Oceania",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.mogadishu,
+                cityName = "Mogadishu",
+                country = "Somalia",
+                continent = "Africa",
+                firstCity = 1
             )
 
         )
