@@ -2503,6 +2503,69 @@ object ListOfCities {
                 country = "Sudan",
                 continent = "Africa",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.paramaribo,
+                cityName = "Paramaribo",
+                country = "Suriname",
+                continent = "South America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.stockholm,
+                cityName = "Stockholm",
+                country = "Sweden",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.gothenburg,
+                cityName = "Gothenburg",
+                country = "Sweden",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.malmo,
+                cityName = "Malmo",
+                country = "Sweden",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.zurich,
+                cityName = "Zurich",
+                country = "Switzerland",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.basel,
+                cityName = "Basel",
+                country = "Switzerland",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.geneva,
+                cityName = "Geneva",
+                country = "Switzerland",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.lucerne,
+                cityName = "Lucerne",
+                country = "Switzerland",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.bern,
+                cityName = "Bern",
+                country = "Switzerland",
+                continent = "Europe",
+                firstCity = 0
             )
 
         )
