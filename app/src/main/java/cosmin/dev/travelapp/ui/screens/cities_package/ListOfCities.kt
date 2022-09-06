@@ -2398,6 +2398,55 @@ object ListOfCities {
                 country = "Somalia",
                 continent = "Africa",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.capetown,
+                cityName = "Cape Town",
+                country = "South Africa",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.johannesburg,
+                cityName = "Johannesburg",
+                country = "South Africa",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.pretoria,
+                cityName = "Pretoria",
+                country = "South Africa",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.seoul,
+                cityName = "Seoul",
+                country = "South Korea",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.busan,
+                cityName = "Busan",
+                country = "South Korea",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.seogwipo,
+                cityName = "Seogwipo",
+                country = "South Korea",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.juba,
+                cityName = "Juba",
+                country = "South Sudan",
+                continent = "Africa",
+                firstCity = 1
             )
 
         )
