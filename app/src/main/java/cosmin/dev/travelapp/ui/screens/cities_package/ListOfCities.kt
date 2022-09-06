@@ -2566,6 +2566,41 @@ object ListOfCities {
                 country = "Switzerland",
                 continent = "Europe",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.damascus,
+                cityName = "Damascus",
+                country = "Syria",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.dushanbe,
+                cityName = "Dushanbe",
+                country = "Tajikistan",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.zanzibar,
+                cityName = "Zanzibar",
+                country = "Tanzania",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.daressalaam,
+                cityName = "Dar Es Salaam",
+                country = "Tanzania",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.arusha,
+                cityName = "Arusha",
+                country = "Tanzania",
+                continent = "Asia",
+                firstCity = 0
             )
 
         )
