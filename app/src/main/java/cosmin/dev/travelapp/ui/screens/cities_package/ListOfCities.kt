@@ -2447,6 +2447,62 @@ object ListOfCities {
                 country = "South Sudan",
                 continent = "Africa",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.barcelona,
+                cityName = "Barcelona",
+                country = "Spain",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.madrid,
+                cityName = "Madrid",
+                country = "Spain",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.valencia,
+                cityName = "Valencia",
+                country = "Spain",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.sevilla,
+                cityName = "Sevilla",
+                country = "Spain",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.granadaspain,
+                cityName = "Granada",
+                country = "Spain",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.colombo,
+                cityName = "Colombo",
+                country = "Sri Lanka",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.kandy,
+                cityName = "Kandy",
+                country = "Sri Lanka",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.khartoum,
+                cityName = "Khartoum",
+                country = "Sudan",
+                continent = "Africa",
+                firstCity = 1
             )
 
         )
