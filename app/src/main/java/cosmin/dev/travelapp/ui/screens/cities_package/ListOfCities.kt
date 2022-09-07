@@ -2643,6 +2643,41 @@ object ListOfCities {
                 country = "Tonga",
                 continent = "Oceania",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.portofspain,
+                cityName = "Port of Spain",
+                country = "Trinidad and Tobago",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.tunis,
+                cityName = "Tunis",
+                country = "Tunisia",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.hammamet,
+                cityName = "Hammamet",
+                country = "Tunisia",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.djerba,
+                cityName = "Djerba",
+                country = "Tunisia",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.carthage,
+                cityName = "Carthage",
+                country = "Tunisia",
+                continent = "Africa",
+                firstCity = 0
             )
 
         )
