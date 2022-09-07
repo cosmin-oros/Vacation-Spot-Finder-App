@@ -2601,6 +2601,48 @@ object ListOfCities {
                 country = "Tanzania",
                 continent = "Asia",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.bangkok,
+                cityName = "Bangkok",
+                country = "Thailand",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.phuket,
+                cityName = "Phuket",
+                country = "Thailand",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.ayutthaya,
+                cityName = "Ayutthaya",
+                country = "Thailand",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.dili,
+                cityName = "Dili",
+                country = "East Timor",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.lome,
+                cityName = "Lome",
+                country = "Togo",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.nukualofa,
+                cityName = "Nuku'alofa",
+                country = "Tonga",
+                continent = "Oceania",
+                firstCity = 1
             )
 
         )
