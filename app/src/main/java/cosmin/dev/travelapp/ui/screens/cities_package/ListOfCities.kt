@@ -2678,6 +2678,41 @@ object ListOfCities {
                 country = "Tunisia",
                 continent = "Africa",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.istanbul,
+                cityName = "Istanbul",
+                country = "Turkey",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.antalya,
+                cityName = "Antalya",
+                country = "Turkey",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.izmir,
+                cityName = "Izmir",
+                country = "Turkey",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.ashgabat,
+                cityName = "Ashgabat",
+                country = "Turkmenistan",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.funafuti,
+                cityName = "Funafuti",
+                country = "Tuvalu",
+                continent = "Oceania",
+                firstCity = 1
             )
 
         )
