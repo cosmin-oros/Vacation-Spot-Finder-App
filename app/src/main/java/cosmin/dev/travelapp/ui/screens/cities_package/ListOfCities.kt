@@ -2713,6 +2713,48 @@ object ListOfCities {
                 country = "Tuvalu",
                 continent = "Oceania",
                 firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.kampala,
+                cityName = "Kampala",
+                country = "Uganda",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.kiev,
+                cityName = "Kiev",
+                country = "Ukraine",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.odessa,
+                cityName = "Odessa",
+                country = "Ukraine",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.lviv,
+                cityName = "Lviv",
+                country = "Ukraine",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.dubai,
+                cityName = "Dubai",
+                country = "United Arab Emirates",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.abudhabi,
+                cityName = "Abu Dhabi",
+                country = "United Arab Emirates",
+                continent = "Asia",
+                firstCity = 0
             )
 
         )
