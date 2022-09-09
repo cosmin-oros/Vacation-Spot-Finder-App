@@ -2934,7 +2934,7 @@ object ListOfCities {
             CitiesData(
                 imgRes = R.drawable.harare,
                 cityName = "Harare",
-                country = "Zambia",
+                country = "Zimbabwe",
                 continent = "Africa",
                 firstCity = 1
             ),
