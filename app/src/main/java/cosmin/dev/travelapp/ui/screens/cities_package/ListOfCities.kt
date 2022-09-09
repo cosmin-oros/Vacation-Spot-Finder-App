@@ -2881,6 +2881,69 @@ object ListOfCities {
                 country = "Venezuela",
                 continent = "South America",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.hanoi,
+                cityName = "Hanoi",
+                country = "Vietnam",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.hochiminh,
+                cityName = "Ho Chi Minh",
+                country = "Vietnam",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.danang,
+                cityName = "Da Nang",
+                country = "Vietnam",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.sanaa,
+                cityName = "Sanaa",
+                country = "Yemen",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.socotra,
+                cityName = "Socotra Island",
+                country = "Yemen",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.lusaka,
+                cityName = "Lusaka",
+                country = "Zambia",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.livingstone,
+                cityName = "Livingstone",
+                country = "Zambia",
+                continent = "Africa",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.harare,
+                cityName = "Harare",
+                country = "Zambia",
+                continent = "Africa",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.bulawayo,
+                cityName = "Bulawayo",
+                country = "Zimbabwe",
+                continent = "Africa",
+                firstCity = 0
             )
 
         )
