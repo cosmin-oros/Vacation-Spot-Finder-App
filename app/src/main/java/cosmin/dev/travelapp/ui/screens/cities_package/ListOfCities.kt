@@ -2839,6 +2839,48 @@ object ListOfCities {
                 country = "Uruguay",
                 continent = "South America",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.tashkent,
+                cityName = "Tashkent",
+                country = "Uzbekistan",
+                continent = "Asia",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.samarkand,
+                cityName = "Samarkand",
+                country = "Uzbekistan",
+                continent = "Asia",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.portvila,
+                cityName = "Port Vila",
+                country = "Vanuatu",
+                continent = "Oceania",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.caracas,
+                cityName = "Caracas",
+                country = "Venezuela",
+                continent = "South America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.porlamar,
+                cityName = "Porlamar",
+                country = "Venezuela",
+                continent = "South America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.barquisimeto,
+                cityName = "Barquisimeto",
+                country = "Venezuela",
+                continent = "South America",
+                firstCity = 0
             )
 
         )
