@@ -2755,6 +2755,90 @@ object ListOfCities {
                 country = "United Arab Emirates",
                 continent = "Asia",
                 firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.london,
+                cityName = "London",
+                country = "United Kingdom",
+                continent = "Europe",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.edinburgh,
+                cityName = "Edinburgh",
+                country = "United Kingdom",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.liverpool,
+                cityName = "Liverpool",
+                country = "United Kingdom",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.cardiff,
+                cityName = "Cardiff",
+                country = "United Kingdom",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.belfast,
+                cityName = "Belfast",
+                country = "United Kingdom",
+                continent = "Europe",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.seattle,
+                cityName = "Seattle",
+                country = "USA",
+                continent = "North America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.boston,
+                cityName = "Boston",
+                country = "USA",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.losangeles,
+                cityName = "Los Angeles",
+                country = "USA",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.sanfrancisco,
+                cityName = "San Francisco",
+                country = "USA",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.newyork,
+                cityName = "New York City",
+                country = "USA",
+                continent = "North America",
+                firstCity = 0
+            ),
+            CitiesData(
+                imgRes = R.drawable.montevideo,
+                cityName = "Montevideo",
+                country = "Uruguay",
+                continent = "South America",
+                firstCity = 1
+            ),
+            CitiesData(
+                imgRes = R.drawable.puntadeleste,
+                cityName = "Punta del Este",
+                country = "Uruguay",
+                continent = "South America",
+                firstCity = 0
             )
 
         )
