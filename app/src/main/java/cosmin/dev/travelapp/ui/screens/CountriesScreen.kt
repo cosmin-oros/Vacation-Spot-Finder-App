@@ -30,6 +30,11 @@ fun CountriesScreen(navController: NavController, name: String?) {
         ListOfCountries.getData()
     }
 
+    /*
+    split 2 buttons Find Me A Location, Explore
+    Find me a location - sort by continent, input budget, activities etc
+     */
+
     //list all the countries
     LazyColumn(
         contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp)
