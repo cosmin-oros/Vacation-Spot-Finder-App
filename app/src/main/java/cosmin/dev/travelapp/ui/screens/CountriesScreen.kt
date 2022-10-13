@@ -26,10 +26,6 @@ import cosmin.dev.travelapp.ui.screens.countries_package.ListOfCountries
 
 @Composable
 fun CountriesScreen(navController: NavController, name: String?) {
-    val countriesList = remember{
-        ListOfCountries.getData()
-    }
-
     /*
     split 2 buttons Find Me A Location, Explore
     Find me a location - sort by continent, input budget, activities etc

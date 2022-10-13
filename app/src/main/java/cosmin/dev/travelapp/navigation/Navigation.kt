@@ -7,10 +7,7 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navArgument
-import cosmin.dev.travelapp.ui.screens.CitiesScreen
-import cosmin.dev.travelapp.ui.screens.CountriesScreen
-import cosmin.dev.travelapp.ui.screens.MainScreen
-import cosmin.dev.travelapp.ui.screens.SplashScreen
+import cosmin.dev.travelapp.ui.screens.*
 
 @Composable
 fun Navigation(navController: NavHostController) {
@@ -47,6 +44,32 @@ fun Navigation(navController: NavHostController) {
             )
         ) { entry ->
             CitiesScreen(navController = navController, name = entry.arguments?.getString("name"))
+        }
+
+        composable(
+            Screen.ExploreScreen.route + "/{name}",
+            arguments = listOf(
+                navArgument("name"){
+                    type = NavType.StringType
+                    //defaultValue
+                    nullable = true
+                }
+            )
+        ) { entry ->
+            ExploreScreen(navController = navController, name = entry.arguments?.getString("name"))
+        }
+
+        composable(
+            Screen.SuggestedScreen.route + "/{name}",
+            arguments = listOf(
+                navArgument("name"){
+                    type = NavType.StringType
+                    //defaultValue
+                    nullable = true
+                }
+            )
+        ) { entry ->
+            SuggestedScreen(navController = navController, name = entry.arguments?.getString("name"))
         }
     }
 }
