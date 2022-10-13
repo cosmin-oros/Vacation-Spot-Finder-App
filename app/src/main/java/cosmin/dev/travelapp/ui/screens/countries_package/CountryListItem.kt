@@ -31,7 +31,7 @@ fun CountryListItem(countriesData: CountriesData, navController: NavController, 
                 //navigate back to the main screen button
                 Button(
                     onClick = {
-                        navController.navigate(Screen.MainScreen.route)
+                        navController.navigate(Screen.CountriesScreen.withArgs(countriesData.continent))
                     },
                     colors = ButtonDefaults.buttonColors(
                         backgroundColor = Color.Transparent,

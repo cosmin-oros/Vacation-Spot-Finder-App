@@ -1,5 +1,6 @@
 package cosmin.dev.travelapp.ui.screens
 
+import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.navigation.NavController
@@ -10,4 +11,5 @@ fun SuggestedScreen(navController: NavController, name: String?) {
     val countriesList = remember{
         ListOfCountries.getData()
     }
+
 }

@@ -11,6 +11,7 @@ import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
@@ -31,15 +32,78 @@ fun CountriesScreen(navController: NavController, name: String?) {
     Find me a location - sort by continent, input budget, activities etc
      */
 
-    //list all the countries
-    LazyColumn(
-        contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp)
-    ){
-        items(
-            items = countriesList,
-            itemContent = {
-                CountryListItem(countriesData = it, navController, name)
+    var cont: String = ""
+
+    if (name != null){
+        cont = name
+    }
+
+    Column(
+        modifier = Modifier.fillMaxSize()
+    ) {
+        //navigate back to the main screen button
+        Button(
+            onClick = {
+                navController.navigate(Screen.MainScreen.route)
+            },
+            colors = ButtonDefaults.buttonColors(
+                backgroundColor = Color.Transparent,
+                contentColor = Color.LightGray
+
+            ),
+            modifier = Modifier
+                .padding(8.dp)
+                .border(
+                    width = 5.dp,
+                    brush = Brush.horizontalGradient(
+                        listOf(
+                            Color.DarkGray,
+                            Color.LightGray
+                        )
+                    ),
+                    shape = RoundedCornerShape(15.dp)
+                )
+                .width(90.dp)
+                .height(40.dp)
+                .background(
+                    Brush.horizontalGradient(
+                        colors = listOf(
+                            Color.Transparent,
+                            Color.Transparent
+                        ),
+                        startX = 150f
+                    )
+                )
+        ) {
+            Text(text = "Go back", fontSize = 12.sp)
+        }
+
+        Column(
+            modifier = Modifier.fillMaxSize(),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center
+        ) {
+            // button to get suggestions
+            Button(
+                onClick = {
+                    navController.navigate(Screen.SuggestedScreen.withArgs(cont))
+                }
+            ) {
+                Text(text = "Get Suggestions")
             }
-        )
+
+            Spacer(modifier = Modifier.height(32.dp))
+
+            // button to explore all of them
+            Button(
+                onClick = {
+                    navController.navigate(Screen.ExploreScreen.withArgs(cont))
+                }
+            ) {
+                Text(text = "Explore")
+            }
+
+        }
+
     }
 }
