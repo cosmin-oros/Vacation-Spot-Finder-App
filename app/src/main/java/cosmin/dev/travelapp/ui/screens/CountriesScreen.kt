@@ -87,9 +87,37 @@ fun CountriesScreen(navController: NavController, name: String?) {
             Button(
                 onClick = {
                     navController.navigate(Screen.SuggestedScreen.withArgs(cont))
-                }
+                },
+                colors = ButtonDefaults.buttonColors(
+                    backgroundColor = Color.Transparent,
+                    contentColor = Color.LightGray
+
+                ),
+                modifier = Modifier
+                    .padding(8.dp)
+                    .border(
+                        width = 5.dp,
+                        brush = Brush.horizontalGradient(
+                            listOf(
+                                Color.Blue,
+                                Color.Cyan
+                            )
+                        ),
+                        shape = RoundedCornerShape(15.dp)
+                    )
+                    .width(120.dp)
+                    .height(50.dp)
+                    .background(
+                        Brush.horizontalGradient(
+                            colors = listOf(
+                                Color.Transparent,
+                                Color.Transparent
+                            ),
+                            startX = 150f
+                        )
+                    )
             ) {
-                Text(text = "Get Suggestions")
+                Text(text = "Get Suggestions", fontSize = 13.sp)
             }
 
             Spacer(modifier = Modifier.height(32.dp))
@@ -98,9 +126,37 @@ fun CountriesScreen(navController: NavController, name: String?) {
             Button(
                 onClick = {
                     navController.navigate(Screen.ExploreScreen.withArgs(cont))
-                }
+                },
+                colors = ButtonDefaults.buttonColors(
+                    backgroundColor = Color.Transparent,
+                    contentColor = Color.LightGray
+
+                ),
+                modifier = Modifier
+                    .padding(8.dp)
+                    .border(
+                        width = 5.dp,
+                        brush = Brush.horizontalGradient(
+                            listOf(
+                                Color.Blue,
+                                Color.Cyan
+                            )
+                        ),
+                        shape = RoundedCornerShape(15.dp)
+                    )
+                    .width(120.dp)
+                    .height(50.dp)
+                    .background(
+                        Brush.horizontalGradient(
+                            colors = listOf(
+                                Color.Transparent,
+                                Color.Transparent
+                            ),
+                            startX = 150f
+                        )
+                    )
             ) {
-                Text(text = "Explore")
+                Text(text = "Explore", fontSize = 13.sp)
             }
 
         }
