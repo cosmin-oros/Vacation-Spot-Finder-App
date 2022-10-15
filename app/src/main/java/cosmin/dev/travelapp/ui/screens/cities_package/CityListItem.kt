@@ -29,7 +29,7 @@ fun CityListItem(citiesData: CitiesData, navController: NavController, name: Str
                 //navigate back to the countries screen
                 Button(
                     onClick = {
-                        navController.navigate(Screen.CountriesScreen.withArgs(citiesData.continent))
+                        navController.navigate(Screen.ExploreScreen.withArgs(citiesData.continent))
                     },
                     colors = ButtonDefaults.buttonColors(
                         backgroundColor = Color.Transparent,

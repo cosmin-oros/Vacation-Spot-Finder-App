@@ -78,12 +78,15 @@ fun CountriesScreen(navController: NavController, name: String?) {
             Text(text = "Go back", fontSize = 12.sp)
         }
 
+        // !!! make dropdowns for selections for landspace etc
+
         Column(
             modifier = Modifier.fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
             // button to get suggestions
+            // make the text central
             Button(
                 onClick = {
                     navController.navigate(Screen.SuggestedScreen.withArgs(cont))
