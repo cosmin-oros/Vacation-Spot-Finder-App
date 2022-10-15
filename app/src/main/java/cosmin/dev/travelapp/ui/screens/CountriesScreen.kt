@@ -86,7 +86,7 @@ fun CountriesScreen(navController: NavController, name: String?) {
             verticalArrangement = Arrangement.Center
         ) {
             // button to get suggestions
-            // make the text central
+            //  make the text central
             Button(
                 onClick = {
                     navController.navigate(Screen.SuggestedScreen.withArgs(cont))
