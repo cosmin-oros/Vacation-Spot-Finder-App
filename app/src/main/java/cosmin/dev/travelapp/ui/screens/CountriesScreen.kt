@@ -23,6 +23,7 @@ import cosmin.dev.travelapp.ui.screens.continents_package.ContinentListItem
 import cosmin.dev.travelapp.ui.screens.continents_package.ListOfContinents
 import cosmin.dev.travelapp.ui.screens.countries_package.CountriesData
 import cosmin.dev.travelapp.ui.screens.countries_package.CountryListItem
+import cosmin.dev.travelapp.ui.screens.countries_package.DropDown
 import cosmin.dev.travelapp.ui.screens.countries_package.ListOfCountries
 
 @Composable
@@ -83,7 +84,19 @@ fun CountriesScreen(navController: NavController, name: String?) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-
+            // insert 2 each in a row
+            DropDown(
+                text = "<- Insert your text here ->",
+                modifier = Modifier.padding(15.dp)
+            ) {
+                Text(
+                    text = "<- Text ->",
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(100.dp)
+                        .background(Color(0x0DF59))
+                )
+            }
 
             // button to get suggestions
             //  make the text central
