@@ -180,7 +180,7 @@ fun CountriesScreen(navController: NavController, name: String?) {
                     )
                 }
 
-            }
+            }//
 
             // button to get suggestions
             //  make the text central
