@@ -85,17 +85,101 @@ fun CountriesScreen(navController: NavController, name: String?) {
             verticalArrangement = Arrangement.Center
         ) {
             // insert 2 each in a row
-            DropDown(
-                text = "<- Insert your text here ->",
-                modifier = Modifier.padding(15.dp)
-            ) {
-                Text(
-                    text = "<- Text ->",
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(100.dp)
-                        .background(Color(0x0DF59))
-                )
+            Row(){
+                DropDown(
+                    text = "<- Insert your text here ->",
+                    modifier = Modifier.padding(15.dp)
+                ) {
+                    Text(
+                        text = "<- Text ->",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(100.dp)
+                            .background(Color(0x0DF59))
+                    )
+                }
+
+                Spacer(modifier = Modifier.width(32.dp))
+
+                DropDown(
+                    text = "<- Insert your text here ->",
+                    modifier = Modifier.padding(15.dp)
+                ) {
+                    Text(
+                        text = "<- Text ->",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(100.dp)
+                            .background(Color(0x0DF59))
+                    )
+                }
+
+            }
+
+            Spacer(modifier = Modifier.size(16.dp))
+
+            Row(){
+                DropDown(
+                    text = "<- Insert your text here ->",
+                    modifier = Modifier.padding(15.dp)
+                ) {
+                    Text(
+                        text = "<- Text ->",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(100.dp)
+                            .background(Color(0x0DF59))
+                    )
+                }
+
+                Spacer(modifier = Modifier.width(32.dp))
+
+                DropDown(
+                    text = "<- Insert your text here ->",
+                    modifier = Modifier.padding(15.dp)
+                ) {
+                    Text(
+                        text = "<- Text ->",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(100.dp)
+                            .background(Color(0x0DF59))
+                    )
+                }
+
+            }
+
+            Spacer(modifier = Modifier.size(16.dp))
+
+            Row(){
+                DropDown(
+                    text = "<- Insert your text here ->",
+                    modifier = Modifier.padding(15.dp)
+                ) {
+                    Text(
+                        text = "<- Text ->",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(100.dp)
+                            .background(Color(0x0DF59))
+                    )
+                }
+
+                Spacer(modifier = Modifier.width(32.dp))
+
+                DropDown(
+                    text = "<- Insert your text here ->",
+                    modifier = Modifier.padding(15.dp)
+                ) {
+                    Text(
+                        text = "<- Text ->",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(100.dp)
+                            .background(Color(0x0DF59))
+                    )
+                }
+
             }
 
             // button to get suggestions
