@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize()
                 ){
 
-                    Image(painter = painterResource(R.drawable.bg), contentDescription = "")
+//                    Image(painter = painterResource(R.drawable.bg), contentDescription = "")
                     Navigation(navController = navController)
                 }
 

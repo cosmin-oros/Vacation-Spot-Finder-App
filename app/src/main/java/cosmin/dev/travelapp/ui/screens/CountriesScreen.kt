@@ -84,22 +84,7 @@ fun CountriesScreen(navController: NavController, name: String?) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            // insert 2 each in a row
-            Row(){
-                DropDown(
-                    text = "<- Insert your text here ->",
-                    modifier = Modifier.padding(15.dp)
-                ) {
-                    Text(
-                        text = "<- Text ->",
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .height(100.dp)
-                            .background(Color(0x0DF59))
-                    )
-                }
 
-                Spacer(modifier = Modifier.width(32.dp))
 
                 DropDown(
                     text = "<- Insert your text here ->",
@@ -114,25 +99,25 @@ fun CountriesScreen(navController: NavController, name: String?) {
                     )
                 }
 
-            }
+                /*Spacer(modifier = Modifier.size(16.dp))
+
+                DropDown(
+                    text = "<- Insert your text here ->",
+                    modifier = Modifier.padding(15.dp)
+                ) {
+                    Text(
+                        text = "<- Text ->",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(100.dp)
+                            .background(Color(0x0DF59))
+                    )
+                }
+
+
 
             Spacer(modifier = Modifier.size(16.dp))
 
-            Row(){
-                DropDown(
-                    text = "<- Insert your text here ->",
-                    modifier = Modifier.padding(15.dp)
-                ) {
-                    Text(
-                        text = "<- Text ->",
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .height(100.dp)
-                            .background(Color(0x0DF59))
-                    )
-                }
-
-                Spacer(modifier = Modifier.width(32.dp))
 
                 DropDown(
                     text = "<- Insert your text here ->",
@@ -147,11 +132,25 @@ fun CountriesScreen(navController: NavController, name: String?) {
                     )
                 }
 
-            }
+                Spacer(modifier = Modifier.size(16.dp))
+
+                DropDown(
+                    text = "<- Insert your text here ->",
+                    modifier = Modifier.padding(15.dp)
+                ) {
+                    Text(
+                        text = "<- Text ->",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(100.dp)
+                            .background(Color(0x0DF59))
+                    )
+                }
+
+
 
             Spacer(modifier = Modifier.size(16.dp))
 
-            Row(){
                 DropDown(
                     text = "<- Insert your text here ->",
                     modifier = Modifier.padding(15.dp)
@@ -165,7 +164,7 @@ fun CountriesScreen(navController: NavController, name: String?) {
                     )
                 }
 
-                Spacer(modifier = Modifier.width(32.dp))
+            Spacer(modifier = Modifier.size(16.dp))
 
                 DropDown(
                     text = "<- Insert your text here ->",
@@ -178,9 +177,9 @@ fun CountriesScreen(navController: NavController, name: String?) {
                             .height(100.dp)
                             .background(Color(0x0DF59))
                     )
-                }
+                }*/
 
-            }//
+            // make a function to randomize the order of the list then check my criteria
 
             // button to get suggestions
             //  make the text central
