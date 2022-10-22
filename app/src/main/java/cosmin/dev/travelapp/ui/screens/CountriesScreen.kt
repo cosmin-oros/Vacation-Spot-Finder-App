@@ -90,6 +90,8 @@ fun CountriesScreen(navController: NavController, name: String?) {
         ) {
             Spacer(modifier = Modifier.size(32.dp))
 
+            // make the dropdown more narrow, make the contents clickable
+            // make 3 choices for each
                 DropDown(
                     text = "<- Insert your text here ->",
                     modifier = Modifier.padding(15.dp)
