@@ -5,7 +5,9 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.Button
 import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.Text
@@ -80,26 +82,13 @@ fun CountriesScreen(navController: NavController, name: String?) {
         }
 
         Column(
-            modifier = Modifier.fillMaxSize(),
+            modifier = Modifier
+                .fillMaxSize()
+                .verticalScroll(rememberScrollState()),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-
-
-                DropDown(
-                    text = "<- Insert your text here ->",
-                    modifier = Modifier.padding(15.dp)
-                ) {
-                    Text(
-                        text = "<- Text ->",
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .height(100.dp)
-                            .background(Color(0x0DF59))
-                    )
-                }
-
-                /*Spacer(modifier = Modifier.size(16.dp))
+            Spacer(modifier = Modifier.size(32.dp))
 
                 DropDown(
                     text = "<- Insert your text here ->",
@@ -114,6 +103,20 @@ fun CountriesScreen(navController: NavController, name: String?) {
                     )
                 }
 
+                Spacer(modifier = Modifier.size(16.dp))
+
+                DropDown(
+                    text = "<- Insert your text here ->",
+                    modifier = Modifier.padding(15.dp)
+                ) {
+                    Text(
+                        text = "<- Text ->",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(100.dp)
+                            .background(Color(0x0DF59))
+                    )
+                }
 
 
             Spacer(modifier = Modifier.size(16.dp))
@@ -177,7 +180,7 @@ fun CountriesScreen(navController: NavController, name: String?) {
                             .height(100.dp)
                             .background(Color(0x0DF59))
                     )
-                }*/
+                }
 
             // make a function to randomize the order of the list then check my criteria
 
@@ -257,6 +260,10 @@ fun CountriesScreen(navController: NavController, name: String?) {
             ) {
                 Text(text = "Explore", fontSize = 13.sp)
             }
+
+            Spacer(modifier = Modifier.size(32.dp))
+            
+            Text(text = "")
 
         }
 
