@@ -11,8 +11,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.Button
 import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.remember
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
@@ -34,6 +33,19 @@ fun CountriesScreen(navController: NavController, name: String?) {
     split 2 buttons Find Me A Location, Explore
     Find me a location - sort by continent, input budget, activities etc
      */
+
+    var DropdownSelectedState1 by remember{
+        mutableStateOf("")
+    }
+    var DropdownSelectedState2 by remember{
+        mutableStateOf("")
+    }
+    var DropdownSelectedState3 by remember{
+        mutableStateOf("")
+    }
+    var DropdownSelectedState4 by remember{
+        mutableStateOf("")
+    }
 
     var cont: String = ""
 
@@ -92,6 +104,9 @@ fun CountriesScreen(navController: NavController, name: String?) {
 
             // make the dropdown more narrow, make the contents clickable
             // make 3 choices for each
+
+            // when you click on one of the choices of the
+            // dropdown update the dropdown selected state
                 DropDown(
                     text = "<- Insert your text here ->",
                     modifier = Modifier.padding(15.dp)
